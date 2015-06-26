@@ -4,7 +4,7 @@ This is the repository for theme of many IDE, editor, etc.
 
 # Components
 
-* Visual Studio - [Son of Obsidian color theme](http://surpreem.com/archives/2402) (include ReSharper)
+* Visual Studio - [Son of Obsidian color theme](http://surpreem.com/archives/2402) (with ReSharper)
 
 # Contributions #
 
