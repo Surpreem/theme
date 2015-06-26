@@ -67,12 +67,35 @@
               <Item Name="CppTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppRefTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppValueTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppFunctionSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppStaticMemberFunctionSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="CppStaticMemberFieldSemanticTokenFormat" Foreground="0x00C8C8C8" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="CppClassTemplateSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="C/C++ User Keywords" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Struct Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Enum Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Union Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Namespace Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Local Variable Identifier" Foreground="0x00F3F2F1" Background="0x001E1E1E" BoldFont="No"/>
+              <Item Name="ReSharper C++ Parameter Variable Identifier" Foreground="0x007F7F7F" Background="0x001E1E1E" BoldFont="No"/>
+              <Item Name="ReSharper C++ Global Variable Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper C++ Class Field Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Struct Field Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Enum Enumerator Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Union Member Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Typedef Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Local Typedef Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Global Function Identifier" Foreground="0x02000000" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper C++ Member Function Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Overloaded Operator Identifier" Foreground="0x008B8B00" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Template Parameter Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Dependent Name Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Preprocessor Macro Identifier" Foreground="0x00C563BD" Background="0x001E1E1E" BoldFont="No"/>
               <Item Name="ReSharper Current Line Highlight" Foreground="0x00323127" Background="0x00323127" BoldFont="No"/>
               <Item Name="ReSharper Warning" Foreground="0x00DD6F00" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Todo Item" Foreground="0x000000A6" Background="0x02000000" BoldFont="Yes"/>
@@ -84,6 +107,8 @@
               <Item Name="ReSharper Constant Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Event Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Field Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper Local Variable Identifier" Foreground="0x00F3F2F1" Background="0x001E1E1E" BoldFont="No"/>
+              <Item Name="ReSharper Parameter Identifier" Foreground="0x007F7F7F" Background="0x001E1E1E" BoldFont="No"/>
               <Item Name="ReSharper Method Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Extension Method Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Operator Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
