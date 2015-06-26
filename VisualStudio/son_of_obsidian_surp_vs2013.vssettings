@@ -58,7 +58,7 @@
               <Item Name="XML Doc Comment" Foreground="0x008AA399" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Doc Tag" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="Python class" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
-              <Item Name="Python function" Foreground="0x00C8C8C8" Background="0x02000000" BoldFont="No"/>
+              <Item Name="Python function" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="Python operator" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="Python builtin" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppEnumSemanticTokenFormat" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
