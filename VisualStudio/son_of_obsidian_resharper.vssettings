@@ -129,7 +129,7 @@
               <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x000C425F" BoldFont="No"/>
               <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Template Editor Template Keyword" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x00E1E4FF" BoldFont="No"/>
+              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x00B2B2B2" BoldFont="No"/>
               <Item Name="ReSharper Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Static Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="ReSharper Struct Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="Yes"/>
