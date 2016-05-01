@@ -292,7 +292,7 @@
         <PropertyValue name="FormatHTMLOnPaste">0</PropertyValue>
         <PropertyValue name="WrapTagLength">80</PropertyValue>
         <PropertyValue name="SmallPictureFileType">gif</PropertyValue>
-        <PropertyValue name="HtmlMargin">80</PropertyValue>
+        <PropertyValue name="HtmlMargin">999</PropertyValue>
         <PropertyValue name="JsFailsafeTimeout">15000</PropertyValue>
         <PropertyValue name="RequireAngleBracketForTagIntellisense">-1</PropertyValue>
         <PropertyValue name="RulerAndGridGridSpacing">20</PropertyValue>
@@ -311,7 +311,7 @@
         <PropertyValue name="ClientTagNotLowerCase">0</PropertyValue>
         <PropertyValue name="RestrictionsBOMFlag">4294967295</PropertyValue>
         <PropertyValue name="HtmlRightMarginRule">2</PropertyValue>
-        <PropertyValue name="HtmlBreakInTags">255</PropertyValue>
+        <PropertyValue name="HtmlBreakInTags">0</PropertyValue>
         <PropertyValue name="AutoThumbnailSize">100</PropertyValue>
         <PropertyValue name="HTMLSortAttributes">1</PropertyValue>
         <PropertyValue name="LayoutMarginOverlayColor">12895452</PropertyValue>
@@ -654,6 +654,7 @@
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="TypeScript Specific" RegisteredName="TypeScript Specific" PackageName="Microsoft.VisualStudio.LanguageServices.TypeScript.TypeScriptPackage, Microsoft.VisualStudio.LanguageServices.TypeScript, Version=14.0.0.0, Culture=neutral">
+        <PropertyValue name="UseES2015CodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="UseSystemCodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="InsertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis">false</PropertyValue>
         <PropertyValue name="FormatOnPaste">true</PropertyValue>
