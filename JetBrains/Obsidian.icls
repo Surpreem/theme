@@ -1009,11 +1009,6 @@
         <option name="FOREGROUND" value="ffcc21" />
       </value>
     </option>
-    <option name="PY.OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="818e96" />
-      </value>
-    </option>
     <option name="PY.PARENTHS">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
