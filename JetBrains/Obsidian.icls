@@ -22,6 +22,7 @@
     <option name="WHITESPACES" value="354144" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="660000" />
@@ -339,7 +340,6 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -619,6 +619,11 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
@@ -631,6 +636,7 @@
         <option name="BACKGROUND" value="333333" />
       </value>
     </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="Identifier">
       <value>
         <option name="FOREGROUND" value="668cb0" />
@@ -835,6 +841,9 @@
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
       </value>
+    </option>
+    <option name="OC.STRUCT_FIELD">
+      <value />
     </option>
     <option name="OC.STRUCT_LIKE">
       <value>
@@ -1277,6 +1286,13 @@
     <option name="SQL_STRING">
       <value>
         <option name="FOREGROUND" value="ec7600" />
+      </value>
+    </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="bd63c5" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
