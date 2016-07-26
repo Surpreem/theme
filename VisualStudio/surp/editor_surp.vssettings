@@ -806,7 +806,7 @@
         <PropertyValue name="SpaceAfterSemicolon">true</PropertyValue>
         <PropertyValue name="PreserveInitListSpace">false</PropertyValue>
         <PropertyValue name="SpaceBeforeFunctionParenthesis2">1</PropertyValue>
-        <PropertyValue name="NewlineFunctionBrace">1</PropertyValue>
+        <PropertyValue name="NewlineFunctionBrace">2</PropertyValue>
         <PropertyValue name="IndentBlockContents">true</PropertyValue>
         <PropertyValue name="DisableAggressiveMemberList">false</PropertyValue>
         <PropertyValue name="MaximumCachedTranslationUnits">15</PropertyValue>
@@ -900,7 +900,7 @@
         <PropertyValue name="EnableExpandScopes">false</PropertyValue>
         <PropertyValue name="EnableChangeSignature">false</PropertyValue>
         <PropertyValue name="EnableExtractFunction">false</PropertyValue>
-        <PropertyValue name="PreserveCommentIndentation">false</PropertyValue>
+        <PropertyValue name="PreserveCommentIndentation">true</PropertyValue>
         <PropertyValue name="IndentPreprocessor">2</PropertyValue>
         <PropertyValue name="IndentCaseBraces">false</PropertyValue>
         <PropertyValue name="AlignParameters">false</PropertyValue>
@@ -911,8 +911,8 @@
         <PropertyValue name="InactiveCodeOpacityPercent">55</PropertyValue>
         <PropertyValue name="IndentBraces">false</PropertyValue>
         <PropertyValue name="SpaceBeforeInheritanceColon">true</PropertyValue>
-        <PropertyValue name="NewlineKeywordCatch">false</PropertyValue>
-        <PropertyValue name="NewlineKeywordElse">false</PropertyValue>
+        <PropertyValue name="NewlineKeywordCatch">true</PropertyValue>
+        <PropertyValue name="NewlineKeywordElse">true</PropertyValue>
         <PropertyValue name="IndentCaseLabels">true</PropertyValue>
         <PropertyValue name="HideUnconfirmedReferencesResults">false</PropertyValue>
         <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
