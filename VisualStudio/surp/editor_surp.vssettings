@@ -911,8 +911,8 @@
         <PropertyValue name="InactiveCodeOpacityPercent">55</PropertyValue>
         <PropertyValue name="IndentBraces">false</PropertyValue>
         <PropertyValue name="SpaceBeforeInheritanceColon">true</PropertyValue>
-        <PropertyValue name="NewlineKeywordCatch">true</PropertyValue>
-        <PropertyValue name="NewlineKeywordElse">true</PropertyValue>
+        <PropertyValue name="NewlineKeywordCatch">false</PropertyValue>
+        <PropertyValue name="NewlineKeywordElse">false</PropertyValue>
         <PropertyValue name="IndentCaseLabels">true</PropertyValue>
         <PropertyValue name="HideUnconfirmedReferencesResults">false</PropertyValue>
         <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
