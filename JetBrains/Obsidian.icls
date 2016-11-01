@@ -945,32 +945,13 @@
         <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
-    <option name="PY.BRACES">
-      <value>
-        <option name="FOREGROUND" value="e8e2b7" />
-      </value>
-    </option>
-    <option name="PY.BRACKETS">
-      <value>
-        <option name="FOREGROUND" value="e8e2b7" />
-      </value>
-    </option>
     <option name="PY.BUILTIN_NAME">
       <value>
         <option name="FOREGROUND" value="668cb0" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="PY.CLASS_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="668cb0" />
-      </value>
-    </option>
-    <option name="PY.COMMA">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-      </value>
-    </option>
+    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="cba5f0" />
@@ -981,16 +962,7 @@
         <option name="FOREGROUND" value="66747a" />
       </value>
     </option>
-    <option name="PY.DOT">
-      <value>
-        <option name="FOREGROUND" value="c0c0c0" />
-      </value>
-    </option>
-    <option name="PY.FUNC_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="668cb0" />
-      </value>
-    </option>
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="c0c0c0" />
@@ -1016,11 +988,6 @@
     <option name="PY.NUMBER">
       <value>
         <option name="FOREGROUND" value="ffcc21" />
-      </value>
-    </option>
-    <option name="PY.PARENTHS">
-      <value>
-        <option name="FOREGROUND" value="e8e2b7" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
