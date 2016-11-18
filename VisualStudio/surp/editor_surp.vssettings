@@ -819,7 +819,7 @@
         <PropertyValue name="SpaceAroundConditionalOperator">2</PropertyValue>
         <PropertyValue name="SpaceWithinInitListBraces">false</PropertyValue>
         <PropertyValue name="SpaceBeforeLambdaParenthesis">false</PropertyValue>
-        <PropertyValue name="NewlineScopeBrace">true</PropertyValue>
+        <PropertyValue name="NewlineScopeBrace">false</PropertyValue>
         <PropertyValue name="NewlineEmptyFunctionCloseBrace">false</PropertyValue>
         <PropertyValue name="DisablePreLoadNavigateToCache">false</PropertyValue>
         <PropertyValue name="EnterOutliningModeWhenFilesOpen">true</PropertyValue>
