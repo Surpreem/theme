@@ -30,8 +30,8 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f5f5f5" />
-        <option name="BACKGROUND" value="802936" />
+        <option name="FOREGROUND" value="f1f2f3" />
+        <option name="BACKGROUND" value="8c2f2f" />
         <option name="ERROR_STRIPE_COLOR" value="ffc8c8" />
       </value>
     </option>
@@ -491,8 +491,8 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="ff" />
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="eff284" />
         <option name="ERROR_STRIPE_COLOR" value="3763b0" />
       </value>
     </option>
