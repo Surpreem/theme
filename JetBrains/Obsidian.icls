@@ -7,12 +7,12 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="9933" />
     <option name="CARET_COLOR" value="c0cad1" />
-    <option name="CARET_ROW_COLOR" value="2f393c" />
+    <option name="CARET_ROW_COLOR" value="f0f0f" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
-    <option name="GUTTER_BACKGROUND" value="3f4b4e" />
+    <option name="GUTTER_BACKGROUND" value="293134" />
     <option name="INDENT_GUIDE" value="343f41" />
     <option name="LEFT_GUTTER_BACKGROUND" value="3f4b4e" />
-    <option name="LINE_NUMBERS_COLOR" value="81969a" />
+    <option name="LINE_NUMBERS_COLOR" value="354e49" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="333333" />
     <option name="RIGHT_MARGIN_COLOR" value="666666" />
     <option name="SELECTED_INDENT_GUIDE" value="293134" />
@@ -22,7 +22,7 @@
     <option name="WHITESPACES" value="354144" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="660000" />
@@ -309,6 +309,11 @@
         <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
     <option name="DEFAULT_COMMA">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
@@ -317,7 +322,7 @@
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="bd63c5" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -336,8 +341,22 @@
         <option name="FOREGROUND" value="f1f2f3" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
     <option name="DEFAULT_INSTANCE_FIELD">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
+    <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
       </value>
@@ -351,7 +370,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="93c763" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -394,7 +412,11 @@
         <option name="FOREGROUND" value="f1f2f3" />
       </value>
     </option>
-    <option name="DEFAULT_STATIC_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
     <option name="DEFAULT_STRING">
       <value>
         <option name="FOREGROUND" value="ec7600" />
@@ -632,9 +654,7 @@
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
-      <value>
-        <option name="BACKGROUND" value="333333" />
-      </value>
+      <value />
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="Identifier">
@@ -820,17 +840,24 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="OC.ENUM_CONST">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="OC.LABEL">
       <value>
         <option name="FOREGROUND" value="c8c8c8" />
-        <option name="BACKGROUND" value="283033" />
       </value>
     </option>
     <option name="OC.MACRONAME">
       <value>
         <option name="FOREGROUND" value="bd63c5" />
-        <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="OC.MACRO_PARAMETER">
+      <value />
     </option>
     <option name="OC.NAMESPACE_LIKE">
       <value>
@@ -969,25 +996,10 @@
         <option name="BACKGROUND" value="660000" />
       </value>
     </option>
-    <option name="PY.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="93c763" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.KEYWORD_ARGUMENT">
-      <value>
-        <option name="FOREGROUND" value="66cc00" />
-      </value>
-    </option>
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PY.LINE_COMMENT">
       <value>
         <option name="FOREGROUND" value="67757a" />
-      </value>
-    </option>
-    <option name="PY.NUMBER">
-      <value>
-        <option name="FOREGROUND" value="ffcc21" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
@@ -1259,7 +1271,7 @@
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bd63c5" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -1271,7 +1283,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
-        <option name="BACKGROUND" value="283033" />
+        <option name="BACKGROUND" value="1e1e1e" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1329,6 +1341,11 @@
       <value>
         <option name="FOREGROUND" value="ec7600" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="TYPO">
