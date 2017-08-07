@@ -150,7 +150,7 @@
               <Item Name="ReSharper Struct Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="ReSharper Static Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="ReSharper Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x00B2B2B2" BoldFont="No"/>
+              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x001E1E1E" BoldFont="No"/>
               <Item Name="ReSharper Template Editor Template Keyword" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Preprocessor Macro Identifier" Foreground="0x00C563BD" Background="0x02000000" BoldFont="No"/>
@@ -192,8 +192,8 @@
               <Item Name="ReSharper Event Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Constant Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Hyperlink" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper Brace Outline" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper Matched Brace" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper Brace Outline" Foreground="0x02000000" Background="0x00000000" BoldFont="No"/>
+              <Item Name="ReSharper Matched Brace" Foreground="0x00808080" Background="0x00000000" BoldFont="No"/>
               <Item Name="ReSharper CSS class selector" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper CSS id selector" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper HTML ID attribute" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
@@ -217,7 +217,7 @@
               <Item Name="Breakpoint - Advanced (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No"/>
               <Item Name="Breakpoint - Advanced (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No"/>
               <Item Name="Brace Matching (Highlight)" Foreground="0x02000000" Background="0x01000001" BoldFont="Yes"/>
-              <Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x00808080" BoldFont="No"/>
+              <Item Name="Brace Matching (Rectangle)" Foreground="0x02000000" Background="0x00000000" BoldFont="No"/>
               <Item Name="Collapsible Text (Expanded)" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="Collapsible Text (Collapsed)" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="syntax error" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
