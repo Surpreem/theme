@@ -1,7 +1,61 @@
 <UserSettings>
-  <ApplicationIdentity version="14.0"/>
+  <ApplicationIdentity version="15.0"/>
   <ToolsOptions>
     <ToolsOptionsCategory name="TextEditor" RegisteredName="TextEditor">
+      <ToolsOptionsSubCategory name="SQL Server Tools" RegisteredName="SQL Server Tools" PackageName="Text Management Package">
+        <PropertyValue name="TabSize">4</PropertyValue>
+        <PropertyValue name="ShowChanges">true</PropertyValue>
+        <PropertyValue name="AutoListMembers">true</PropertyValue>
+        <PropertyValue name="ShowPreview">false</PropertyValue>
+        <PropertyValue name="ShowMarks">true</PropertyValue>
+        <PropertyValue name="IndentStyle">1</PropertyValue>
+        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
+        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
+        <PropertyValue name="UseMapMode">true</PropertyValue>
+        <PropertyValue name="VirtualSpace">false</PropertyValue>
+        <PropertyValue name="ShowAnnotations">true</PropertyValue>
+        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
+        <PropertyValue name="InsertTabs">false</PropertyValue>
+        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+        <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+        <PropertyValue name="ShowErrors">true</PropertyValue>
+        <PropertyValue name="OverviewWidth">0</PropertyValue>
+        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
+        <PropertyValue name="WordWrap">false</PropertyValue>
+        <PropertyValue name="IndentSize">4</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
+        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
+        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+        <PropertyValue name="AutoListParams">true</PropertyValue>
+      </ToolsOptionsSubCategory>
+      <ToolsOptionsSubCategory name="T-SQL90" RegisteredName="T-SQL90" PackageName="Text Management Package">
+        <PropertyValue name="TabSize">4</PropertyValue>
+        <PropertyValue name="ShowChanges">true</PropertyValue>
+        <PropertyValue name="AutoListMembers">true</PropertyValue>
+        <PropertyValue name="ShowPreview">false</PropertyValue>
+        <PropertyValue name="ShowMarks">true</PropertyValue>
+        <PropertyValue name="IndentStyle">1</PropertyValue>
+        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
+        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
+        <PropertyValue name="UseMapMode">true</PropertyValue>
+        <PropertyValue name="VirtualSpace">false</PropertyValue>
+        <PropertyValue name="ShowAnnotations">true</PropertyValue>
+        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
+        <PropertyValue name="InsertTabs">false</PropertyValue>
+        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
+        <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
+        <PropertyValue name="ShowErrors">true</PropertyValue>
+        <PropertyValue name="OverviewWidth">0</PropertyValue>
+        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
+        <PropertyValue name="WordWrap">false</PropertyValue>
+        <PropertyValue name="IndentSize">4</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
+        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
+        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
+        <PropertyValue name="AutoListParams">true</PropertyValue>
+      </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="AllLanguages" RegisteredName="AllLanguages" PackageName="Text Management Package"/>
       <ToolsOptionsSubCategory name="Basic" RegisteredName="Basic" PackageName="Text Management Package">
         <PropertyValue name="TabSize">4</PropertyValue>
@@ -31,20 +85,34 @@
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="Basic-Specific" RegisteredName="Basic-Specific" PackageName="VisualBasicPackage">
+        <PropertyValue name="Style_QualifyMethodAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInDeclaration_CodeStyle">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="ExtractMethod_DoNotPutOutOrRefOnStruct">true</PropertyValue>
-        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInDeclaration">true</PropertyValue>
+        <PropertyValue name="BasicClosedFileDiagnostics">0</PropertyValue>
+        <PropertyValue name="Style_PreferCoalesceExpression">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="Outlining">true</PropertyValue>
         <PropertyValue name="EnableHighlightRelatedKeywords">true</PropertyValue>
+        <PropertyValue name="Style_PreferInlinedVariableDeclaration">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="ExtractMethod_AllowMovingDeclaration">false</PropertyValue>
+        <PropertyValue name="Option_SuggestImportsForTypesInNuGetPackages">false</PropertyValue>
+        <PropertyValue name="Style_PreferExplicitTupleNames">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="EnableHighlightReferences">true</PropertyValue>
         <PropertyValue name="DisplayLineSeparators">true</PropertyValue>
-        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInMemberAccess">true</PropertyValue>
-        <PropertyValue name="ClosedFileDiagnostics">true</PropertyValue>
-        <PropertyValue name="PrettyListing">true</PropertyValue>
-        <PropertyValue name="Style_QualifyMemberAccessWithThisOrMe">false</PropertyValue>
+        <PropertyValue name="Style_QualifyEventAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="ClosedFileDiagnostics">false</PropertyValue>
+        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInMemberAccess_CodeStyle">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferNullPropagation">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="PrettyListing">false</PropertyValue>
+        <PropertyValue name="Option_SuggestImportsForTypesInReferenceAssemblies">false</PropertyValue>
+        <PropertyValue name="Style_PreferObjectInitializer">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferCollectionInitializer">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="RenameTrackingPreview">true</PropertyValue>
         <PropertyValue name="AutoComment">true</PropertyValue>
         <PropertyValue name="AutoRequiredMemberInsert">true</PropertyValue>
+        <PropertyValue name="Option_PlaceSystemNamespaceFirst">true</PropertyValue>
+        <PropertyValue name="Style_PreferThrowExpression">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="Style_QualifyPropertyAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_QualifyFieldAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="AutoEndInsert">true</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="CSS" RegisteredName="CSS" PackageName="Text Management Package">
@@ -102,48 +170,302 @@
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="CSharp-Specific" RegisteredName="CSharp-Specific" PackageName="CSharpPackage">
-        <PropertyValue name="Style_UseVarWhenDeclaringLocals">1</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedConstructors">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_UseVarWhenDeclaringLocals">0</PropertyValue>
         <PropertyValue name="Space_AroundBinaryOperator">1</PropertyValue>
         <PropertyValue name="NewLines_QueryExpression_EachClause">1</PropertyValue>
         <PropertyValue name="Formatting_TriggerOnPaste">1</PropertyValue>
+        <PropertyValue name="Style_UseImplicitTypeWhereApparent">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_QualifyMethodAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInDeclaration_CodeStyle">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="ExtractMethod_DoNotPutOutOrRefOnStruct">1</PropertyValue>
-        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInDeclaration">1</PropertyValue>
+        <PropertyValue name="AutoInsertAsteriskForNewLinesOfBlockComments">1</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedAccessors">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedOperators">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferCoalesceExpression">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="NewLines_Braces_Method">1</PropertyValue>
         <PropertyValue name="HighlightReferences">1</PropertyValue>
+        <PropertyValue name="Style_PreferPatternMatchingOverIsWithCastCheck">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="AddImport_SuggestForTypesInReferenceAssemblies">0</PropertyValue>
         <PropertyValue name="InsertNewlineOnEnterWithWholeWord">0</PropertyValue>
         <PropertyValue name="Indent_CaseLabels">1</PropertyValue>
         <PropertyValue name="Formatting_TriggerOnBlockCompletion">1</PropertyValue>
         <PropertyValue name="EnableHighlightRelatedKeywords">1</PropertyValue>
+        <PropertyValue name="Style_PreferInlinedVariableDeclaration">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="Space_WithinOtherParentheses">0</PropertyValue>
         <PropertyValue name="NewLines_Braces_ControlFlow">1</PropertyValue>
         <PropertyValue name="NewLines_Braces_AnonymousMethod">1</PropertyValue>
         <PropertyValue name="ExtractMethod_AllowMovingDeclaration">0</PropertyValue>
+        <PropertyValue name="HighlightMatchingPortionsOfCompletionListItems">1</PropertyValue>
         <PropertyValue name="BringUpOnIdentifier">1</PropertyValue>
         <PropertyValue name="Wrapping_KeepStatementsOnSingleLine">1</PropertyValue>
+        <PropertyValue name="Style_PreferExplicitTupleNames">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="Space_AfterBasesColon">1</PropertyValue>
+        <PropertyValue name="EnterKeyBehavior">0</PropertyValue>
         <PropertyValue name="Indent_Braces">0</PropertyValue>
         <PropertyValue name="DisplayLineSeparators">0</PropertyValue>
         <PropertyValue name="Wrapping_IgnoreSpacesAroundVariableDeclaration">0</PropertyValue>
-        <PropertyValue name="WarnOnBuildErrors">1</PropertyValue>
-        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInMemberAccess">1</PropertyValue>
+        <PropertyValue name="Style_PreferPatternMatchingOverAsWithNullCheck">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferConditionalDelegateCall">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="Style_UseImplicitTypeForIntrinsicTypes">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="Space_WithinMethodCallParentheses">0</PropertyValue>
         <PropertyValue name="Space_AfterCast">0</PropertyValue>
+        <PropertyValue name="AddImport_SuggestForTypesInNuGetPackages">0</PropertyValue>
         <PropertyValue name="SortUsings_PlaceSystemFirst">0</PropertyValue>
+        <PropertyValue name="WarnOnBuildErrors">0</PropertyValue>
+        <PropertyValue name="Style_QualifyEventAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_NamingPreferences">
+          &lt;NamingPreferencesInfo SerializationVersion="4"&gt;
+          &lt;SymbolSpecifications&gt;
+          &lt;SymbolSpecification ID="5c545a62-b14d-460a-88d8-e936c0a39316" Name="Class"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Class&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="23d856b4-5089-4405-83ce-749aada99153" Name="Interface"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Interface&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="d1796e78-ff66-463f-8576-eb46416060c0" Name="Struct"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Struct&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="d8af8dc6-1ade-441d-9947-8946922e198a" Name="Enum"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Enum&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="408a3347-b908-4b54-a954-1355e64c1de3" Name="Delegate"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Delegate&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="830657f6-e7e5-4830-b328-f109d3b6c165" Name="Event"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Event&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="390caed4-f0a9-42bb-adbb-b44c4a302a22" Name="Method"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Method&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="af410767-f189-47c6-b140-aeccf1ff242e" Name="Private Method"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Method&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="8076757e-6a4a-47f1-9b4b-ae8a3284e987" Name="Abstract Method"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Method&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList&gt;
+          &lt;ModifierKind&gt;IsAbstract&lt;/ModifierKind&gt;
+          &lt;/RequiredModifierList&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="16133061-a8e7-4392-92c3-1d93cd54c218" Name="Static Method"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Method&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList&gt;
+          &lt;ModifierKind&gt;IsStatic&lt;/ModifierKind&gt;
+          &lt;/RequiredModifierList&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="da6a2919-5aa6-4ad1-a24d-576776ed3974" Name="Property"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Property&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="b24a91ce-3501-4799-b6df-baf044156c83" Name="Public or Protected Field"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Field&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="70af42cb-1741-4027-969c-9edc4877d965" Name="Static Field"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Field&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList&gt;
+          &lt;ModifierKind&gt;IsStatic&lt;/ModifierKind&gt;
+          &lt;/RequiredModifierList&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="10790aa6-0a0b-432d-a52d-d252ca92302b" Name="Private or Internal Field"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Field&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="ac995be4-88de-4771-9dcc-a456a7c02d89" Name="Private or Internal Static Field"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Field&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList&gt;
+          &lt;ModifierKind&gt;IsStatic&lt;/ModifierKind&gt;
+          &lt;/RequiredModifierList&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="2c07f5bf-bc81-4c2b-82b4-ae9b3ffd0ba4" Name="Types"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;TypeKind&gt;Class&lt;/TypeKind&gt;
+          &lt;TypeKind&gt;Struct&lt;/TypeKind&gt;
+          &lt;TypeKind&gt;Interface&lt;/TypeKind&gt;
+          &lt;TypeKind&gt;Enum&lt;/TypeKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;SymbolSpecification ID="5f3ddba1-279f-486c-801e-5c097c36dd85" Name="Non-Field Members"&gt;
+          &lt;ApplicableSymbolKindList&gt;
+          &lt;SymbolKind&gt;Property&lt;/SymbolKind&gt;
+          &lt;SymbolKind&gt;Method&lt;/SymbolKind&gt;
+          &lt;SymbolKind&gt;Event&lt;/SymbolKind&gt;
+          &lt;/ApplicableSymbolKindList&gt;
+          &lt;ApplicableAccessibilityList&gt;
+          &lt;AccessibilityKind&gt;Public&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Internal&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Private&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;Protected&lt;/AccessibilityKind&gt;
+          &lt;AccessibilityKind&gt;ProtectedOrInternal&lt;/AccessibilityKind&gt;
+          &lt;/ApplicableAccessibilityList&gt;
+          &lt;RequiredModifierList /&gt;
+          &lt;/SymbolSpecification&gt;
+          &lt;/SymbolSpecifications&gt;
+          &lt;NamingStyles&gt;
+          &lt;NamingStyle ID="87e7c501-9948-4b53-b1eb-a6cbe918feee" Name="Pascal Case" Prefix="" Suffix="" WordSeparator="" CapitalizationScheme="PascalCase" /&gt;
+          &lt;NamingStyle ID="1ecc5eb6-b5fc-49a5-a9f1-a980f3e48c92" Name="Begins with I" Prefix="I" Suffix="" WordSeparator="" CapitalizationScheme="PascalCase" /&gt;
+          &lt;/NamingStyles&gt;
+          &lt;NamingRules&gt;
+          &lt;SerializableNamingRule SymbolSpecificationID="23d856b4-5089-4405-83ce-749aada99153" NamingStyleID="1ecc5eb6-b5fc-49a5-a9f1-a980f3e48c92" EnforcementLevel="Info" /&gt;
+          &lt;SerializableNamingRule SymbolSpecificationID="2c07f5bf-bc81-4c2b-82b4-ae9b3ffd0ba4" NamingStyleID="87e7c501-9948-4b53-b1eb-a6cbe918feee" EnforcementLevel="Info" /&gt;
+          &lt;SerializableNamingRule SymbolSpecificationID="5f3ddba1-279f-486c-801e-5c097c36dd85" NamingStyleID="87e7c501-9948-4b53-b1eb-a6cbe918feee" EnforcementLevel="Info" /&gt;
+          &lt;/NamingRules&gt;
+          &lt;/NamingPreferencesInfo&gt;
+        </PropertyValue>
         <PropertyValue name="ShowSnippets">1</PropertyValue>
-        <PropertyValue name="ShowKeywords">1</PropertyValue>
+        <PropertyValue name="ShowKeywords">0</PropertyValue>
         <PropertyValue name="Space_WithinExpressionParentheses">0</PropertyValue>
         <PropertyValue name="Space_InControlFlowConstruct">1</PropertyValue>
         <PropertyValue name="NewLines_Keywords_Catch">1</PropertyValue>
         <PropertyValue name="NewLines_Braces_ObjectInitializer">1</PropertyValue>
         <PropertyValue name="NewLines_AnonymousTypeInitializer_EachMember">1</PropertyValue>
         <PropertyValue name="Formatting_TriggerOnStatementCompletion">1</PropertyValue>
-        <PropertyValue name="ClosedFileDiagnostics">1</PropertyValue>
+        <PropertyValue name="CSharpClosedFileDiagnostics">-1</PropertyValue>
+        <PropertyValue name="ClosedFileDiagnostics">-1</PropertyValue>
+        <PropertyValue name="Style_PreferBraces">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferIntrinsicPredefinedTypeKeywordInMemberAccess_CodeStyle">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="Space_BetweenEmptyMethodDeclarationParentheses">0</PropertyValue>
         <PropertyValue name="NewLines_Keywords_Finally">1</PropertyValue>
         <PropertyValue name="Indent_UnindentLabels">2</PropertyValue>
+        <PropertyValue name="Style_PreferNullPropagation">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="NewLines_ObjectInitializer_EachMember">1</PropertyValue>
         <PropertyValue name="NewLines_Keywords_Else">1</PropertyValue>
-        <PropertyValue name="Style_QualifyMemberAccessWithThisOrMe">0</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedIndexers">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferObjectInitializer">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="Space_WithinMethodDeclarationParentheses">0</PropertyValue>
         <PropertyValue name="Space_BetweenEmptyMethodCallParentheses">0</PropertyValue>
         <PropertyValue name="Space_BeforeSemicolonsInForStatement">0</PropertyValue>
@@ -152,16 +474,24 @@
         <PropertyValue name="Space_AfterComma">1</PropertyValue>
         <PropertyValue name="NewLines_Braces_Property">1</PropertyValue>
         <PropertyValue name="Wrapping_IgnoreSpacesAroundBinaryOperators">0</PropertyValue>
+        <PropertyValue name="Style_PreferCollectionInitializer">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
         <PropertyValue name="Space_BeforeBasesColon">1</PropertyValue>
         <PropertyValue name="Space_AfterMethodDeclarationName">0</PropertyValue>
         <PropertyValue name="Space_AfterDot">0</PropertyValue>
         <PropertyValue name="RenameTrackingPreview">1</PropertyValue>
         <PropertyValue name="AutoComment">1</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedProperties">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="NewLines_Braces_Type">1</PropertyValue>
+        <PropertyValue name="SnippetsBehavior">2</PropertyValue>
         <PropertyValue name="EnterOutliningModeOnOpen">1</PropertyValue>
+        <PropertyValue name="Style_PreferExpressionBodiedMethods">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_PreferThrowExpression">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="true" DiagnosticSeverity="Info" /&gt;</PropertyValue>
+        <PropertyValue name="Style_QualifyPropertyAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="Space_WithinSquares">0</PropertyValue>
         <PropertyValue name="NewLines_Braces_Accessor">1</PropertyValue>
         <PropertyValue name="NewLines_Braces_LambdaExpressionBody">1</PropertyValue>
+        <PropertyValue name="Style_UseImplicitTypeWherePossible">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
+        <PropertyValue name="Style_QualifyFieldAccess">&lt;CodeStyleOption SerializationVersion="1" Type="Boolean" Value="false" DiagnosticSeverity="Hidden" /&gt;</PropertyValue>
         <PropertyValue name="Space_WithinCastParentheses">0</PropertyValue>
         <PropertyValue name="Space_AfterSemicolonsInForStatement">1</PropertyValue>
         <PropertyValue name="NewLines_Braces_AnonymousTypeInitializer">1</PropertyValue>
@@ -174,6 +504,7 @@
         <PropertyValue name="RenameSmartTagEnabled">1</PropertyValue>
         <PropertyValue name="Refactoring_Verification_Enabled">0</PropertyValue>
         <PropertyValue name="Indent_BlockContents">1</PropertyValue>
+        <PropertyValue name="ShowCompletionItemFilters">1</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="CoffeeScript" RegisteredName="CoffeeScript" PackageName="Text Management Package">
         <PropertyValue name="TabSize">4</PropertyValue>
@@ -202,33 +533,6 @@
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="FSharp" RegisteredName="FSharp" PackageName="Text Management Package">
-        <PropertyValue name="TabSize">4</PropertyValue>
-        <PropertyValue name="ShowChanges">true</PropertyValue>
-        <PropertyValue name="AutoListMembers">true</PropertyValue>
-        <PropertyValue name="ShowPreview">false</PropertyValue>
-        <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">1</PropertyValue>
-        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
-        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
-        <PropertyValue name="UseMapMode">true</PropertyValue>
-        <PropertyValue name="VirtualSpace">false</PropertyValue>
-        <PropertyValue name="ShowAnnotations">true</PropertyValue>
-        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">false</PropertyValue>
-        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
-        <PropertyValue name="EnableLeftClickForURLs">false</PropertyValue>
-        <PropertyValue name="ShowErrors">true</PropertyValue>
-        <PropertyValue name="OverviewWidth">0</PropertyValue>
-        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
-        <PropertyValue name="WordWrap">false</PropertyValue>
-        <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">true</PropertyValue>
-        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
-        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
-        <PropertyValue name="AutoListParams">true</PropertyValue>
-      </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="HTML" RegisteredName="HTML" PackageName="Text Management Package">
         <PropertyValue name="TabSize">4</PropertyValue>
         <PropertyValue name="ShowChanges">true</PropertyValue>
@@ -238,7 +542,7 @@
         <PropertyValue name="IndentStyle">2</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
@@ -292,7 +596,7 @@
         <PropertyValue name="FormatHTMLOnPaste">0</PropertyValue>
         <PropertyValue name="WrapTagLength">80</PropertyValue>
         <PropertyValue name="SmallPictureFileType">gif</PropertyValue>
-        <PropertyValue name="HtmlMargin">999</PropertyValue>
+        <PropertyValue name="HtmlMargin">80</PropertyValue>
         <PropertyValue name="JsFailsafeTimeout">15000</PropertyValue>
         <PropertyValue name="RequireAngleBracketForTagIntellisense">-1</PropertyValue>
         <PropertyValue name="RulerAndGridGridSpacing">20</PropertyValue>
@@ -311,7 +615,7 @@
         <PropertyValue name="ClientTagNotLowerCase">0</PropertyValue>
         <PropertyValue name="RestrictionsBOMFlag">4294967295</PropertyValue>
         <PropertyValue name="HtmlRightMarginRule">2</PropertyValue>
-        <PropertyValue name="HtmlBreakInTags">0</PropertyValue>
+        <PropertyValue name="HtmlBreakInTags">255</PropertyValue>
         <PropertyValue name="AutoThumbnailSize">100</PropertyValue>
         <PropertyValue name="HTMLSortAttributes">1</PropertyValue>
         <PropertyValue name="LayoutMarginOverlayColor">12895452</PropertyValue>
@@ -400,7 +704,7 @@
         <PropertyValue name="IndentStyle">2</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
@@ -500,12 +804,12 @@
         <PropertyValue name="IndentStyle">1</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
         <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">true</PropertyValue>
+        <PropertyValue name="InsertTabs">false</PropertyValue>
         <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
         <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
         <PropertyValue name="ShowErrors">true</PropertyValue>
@@ -527,34 +831,7 @@
         <PropertyValue name="IndentStyle">1</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
-        <PropertyValue name="UseMapMode">true</PropertyValue>
-        <PropertyValue name="VirtualSpace">false</PropertyValue>
-        <PropertyValue name="ShowAnnotations">true</PropertyValue>
-        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">true</PropertyValue>
-        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
-        <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
-        <PropertyValue name="ShowErrors">true</PropertyValue>
-        <PropertyValue name="OverviewWidth">0</PropertyValue>
-        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
-        <PropertyValue name="WordWrap">false</PropertyValue>
-        <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
-        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
-        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
-        <PropertyValue name="AutoListParams">true</PropertyValue>
-      </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="SCSS" RegisteredName="SCSS" PackageName="Text Management Package">
-        <PropertyValue name="TabSize">4</PropertyValue>
-        <PropertyValue name="ShowChanges">true</PropertyValue>
-        <PropertyValue name="AutoListMembers">true</PropertyValue>
-        <PropertyValue name="ShowPreview">false</PropertyValue>
-        <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">2</PropertyValue>
-        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
-        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
@@ -572,21 +849,21 @@
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="SQL Server Tools" RegisteredName="SQL Server Tools" PackageName="Text Management Package">
+      <ToolsOptionsSubCategory name="SCSS" RegisteredName="SCSS" PackageName="Text Management Package">
         <PropertyValue name="TabSize">4</PropertyValue>
         <PropertyValue name="ShowChanges">true</PropertyValue>
         <PropertyValue name="AutoListMembers">true</PropertyValue>
         <PropertyValue name="ShowPreview">false</PropertyValue>
         <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">1</PropertyValue>
+        <PropertyValue name="IndentStyle">2</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
         <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">true</PropertyValue>
+        <PropertyValue name="InsertTabs">false</PropertyValue>
         <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
         <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
         <PropertyValue name="ShowErrors">true</PropertyValue>
@@ -594,34 +871,7 @@
         <PropertyValue name="ShowLineNumbers">true</PropertyValue>
         <PropertyValue name="WordWrap">false</PropertyValue>
         <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
-        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
-        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
-        <PropertyValue name="AutoListParams">true</PropertyValue>
-      </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="T-SQL90" RegisteredName="T-SQL90" PackageName="Text Management Package">
-        <PropertyValue name="TabSize">4</PropertyValue>
-        <PropertyValue name="ShowChanges">true</PropertyValue>
-        <PropertyValue name="AutoListMembers">true</PropertyValue>
-        <PropertyValue name="ShowPreview">false</PropertyValue>
-        <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">1</PropertyValue>
-        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
-        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
-        <PropertyValue name="UseMapMode">true</PropertyValue>
-        <PropertyValue name="VirtualSpace">false</PropertyValue>
-        <PropertyValue name="ShowAnnotations">true</PropertyValue>
-        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">true</PropertyValue>
-        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
-        <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
-        <PropertyValue name="ShowErrors">true</PropertyValue>
-        <PropertyValue name="OverviewWidth">0</PropertyValue>
-        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
-        <PropertyValue name="WordWrap">false</PropertyValue>
-        <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
         <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
@@ -632,7 +882,7 @@
         <PropertyValue name="AutoListMembers">true</PropertyValue>
         <PropertyValue name="ShowPreview">false</PropertyValue>
         <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">1</PropertyValue>
+        <PropertyValue name="IndentStyle">2</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
         <PropertyValue name="ShowNavigationBar">true</PropertyValue>
@@ -648,12 +898,12 @@
         <PropertyValue name="ShowLineNumbers">true</PropertyValue>
         <PropertyValue name="WordWrap">false</PropertyValue>
         <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
         <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="TypeScript Specific" RegisteredName="TypeScript Specific" PackageName="Microsoft.VisualStudio.LanguageServices.TypeScript.TypeScriptPackage, Microsoft.VisualStudio.LanguageServices.TypeScript, Version=14.0.0.0, Culture=neutral">
+      <ToolsOptionsSubCategory name="TypeScript Specific" RegisteredName="TypeScript Specific" PackageName="Microsoft.VisualStudio.LanguageServices.TypeScript.TypeScriptPackage, Microsoft.VisualStudio.LanguageServices.TypeScript, Version=15.0.0.0, Culture=neutral">
         <PropertyValue name="UseES2015CodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="UseSystemCodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="InsertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis">false</PropertyValue>
@@ -661,22 +911,28 @@
         <PropertyValue name="ShowVirtualProjectsInSolutionExplorerWhenNoSolution">true</PropertyValue>
         <PropertyValue name="InsertSpaceAfterCommaDelimiter">true</PropertyValue>
         <PropertyValue name="PlaceOpenBraceOnNewLineForFunctions">false</PropertyValue>
+        <PropertyValue name="UseTypeScriptLanguageServiceForJavaScript">true</PropertyValue>
         <PropertyValue name="FormatCompletedLineOnEnter">true</PropertyValue>
         <PropertyValue name="InsertSpaceAfterKeywordsInControlFlowStatements">true</PropertyValue>
         <PropertyValue name="FormatCompletedBlockOnRightCurlyBrace">true</PropertyValue>
         <PropertyValue name="InsertSpaceBeforeAndAfterBinaryOperators">true</PropertyValue>
         <PropertyValue name="ES6ForFilesThatAreNotPartOfAProject">false</PropertyValue>
+        <PropertyValue name="UseTypeScriptVersion">2.2</PropertyValue>
         <PropertyValue name="UseCommonJSCodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
+        <PropertyValue name="ShowJSSyntaxErrors">true</PropertyValue>
         <PropertyValue name="UseJsxPreserveForFilesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="ES5ForFilesThatAreNotPartOfAProject">true</PropertyValue>
         <PropertyValue name="FormatCompletedStatementOnSemicolon">true</PropertyValue>
+        <PropertyValue name="OnlyUseTabOrEnterToCommit">true</PropertyValue>
         <PropertyValue name="UseJsxReactForFilesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="ShowGruntGulpDialogForAspNet">true</PropertyValue>
         <PropertyValue name="ShowVirtualProjectsInSolutionExplorerWhenSolutionOpen">false</PropertyValue>
         <PropertyValue name="InsertSpaceAfterFunctionKeywordForAnonymousFunctions">true</PropertyValue>
         <PropertyValue name="PlaceOpenBraceOnNewLineForControlBlocks">false</PropertyValue>
+        <PropertyValue name="ShowJSErrorsAsWarnings">true</PropertyValue>
         <PropertyValue name="UseUMDCodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="ES3ForFilesThatAreNotPartOfAProject">false</PropertyValue>
+        <PropertyValue name="CompletionChars">{}[]().,:;+-*/%&amp;|^!~=&lt;&gt;? </PropertyValue>
         <PropertyValue name="UseAMDCodeGenerationForModulesThatAreNotPartOfAProject">false</PropertyValue>
         <PropertyValue name="AutomaticallyCompileTypeScriptFilesWhenSavedWhenNoSolution">false</PropertyValue>
         <PropertyValue name="InsertSpaceAfterSemicolonInForStatements">true</PropertyValue>
@@ -697,40 +953,13 @@
         <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
         <PropertyValue name="InsertTabs">false</PropertyValue>
         <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
-        <PropertyValue name="EnableLeftClickForURLs">false</PropertyValue>
-        <PropertyValue name="ShowErrors">true</PropertyValue>
-        <PropertyValue name="OverviewWidth">0</PropertyValue>
-        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
-        <PropertyValue name="WordWrap">false</PropertyValue>
-        <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
-        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
-        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
-        <PropertyValue name="AutoListParams">true</PropertyValue>
-      </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="XOML" RegisteredName="XOML" PackageName="Text Management Package">
-        <PropertyValue name="TabSize">4</PropertyValue>
-        <PropertyValue name="ShowChanges">true</PropertyValue>
-        <PropertyValue name="AutoListMembers">true</PropertyValue>
-        <PropertyValue name="ShowPreview">false</PropertyValue>
-        <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">1</PropertyValue>
-        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
-        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
-        <PropertyValue name="UseMapMode">true</PropertyValue>
-        <PropertyValue name="VirtualSpace">true</PropertyValue>
-        <PropertyValue name="ShowAnnotations">true</PropertyValue>
-        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">true</PropertyValue>
-        <PropertyValue name="WordWrapGlyphs">false</PropertyValue>
         <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
         <PropertyValue name="ShowErrors">true</PropertyValue>
         <PropertyValue name="OverviewWidth">0</PropertyValue>
         <PropertyValue name="ShowLineNumbers">true</PropertyValue>
         <PropertyValue name="WordWrap">false</PropertyValue>
         <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
         <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
@@ -744,7 +973,7 @@
         <PropertyValue name="IndentStyle">2</PropertyValue>
         <PropertyValue name="ShowCaretPosition">true</PropertyValue>
         <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">false</PropertyValue>
+        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
         <PropertyValue name="UseMapMode">true</PropertyValue>
         <PropertyValue name="VirtualSpace">false</PropertyValue>
         <PropertyValue name="ShowAnnotations">true</PropertyValue>
@@ -757,7 +986,7 @@
         <PropertyValue name="ShowLineNumbers">true</PropertyValue>
         <PropertyValue name="WordWrap">false</PropertyValue>
         <PropertyValue name="IndentSize">2</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
+        <PropertyValue name="BraceCompletion">true</PropertyValue>
         <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
         <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
         <PropertyValue name="AutoListParams">true</PropertyValue>
@@ -810,69 +1039,77 @@
         <PropertyValue name="IndentBlockContents">true</PropertyValue>
         <PropertyValue name="DisableAggressiveMemberList">false</PropertyValue>
         <PropertyValue name="MaximumCachedTranslationUnits">15</PropertyValue>
+        <PropertyValue name="ReferencesHideInCommentResults">true</PropertyValue>
+        <PropertyValue name="ReferencesHideUnconfirmedResults">true</PropertyValue>
         <PropertyValue name="SpaceBeforeInitListBrace">false</PropertyValue>
         <PropertyValue name="SpaceWithinCastParentheses">false</PropertyValue>
         <PropertyValue name="NewlineInitListBrace">0</PropertyValue>
         <PropertyValue name="IndentCaseContents">true</PropertyValue>
         <PropertyValue name="RefactorScope">2</PropertyValue>
         <PropertyValue name="RecreateDatabase">false</PropertyValue>
+        <PropertyValue name="DisableHLSLIntelliSense">true</PropertyValue>
+        <PropertyValue name="MemberListFilterPredictive">false</PropertyValue>
         <PropertyValue name="SpaceAroundConditionalOperator">2</PropertyValue>
         <PropertyValue name="SpaceWithinInitListBraces">false</PropertyValue>
         <PropertyValue name="SpaceBeforeLambdaParenthesis">false</PropertyValue>
         <PropertyValue name="NewlineScopeBrace">true</PropertyValue>
         <PropertyValue name="NewlineEmptyFunctionCloseBrace">false</PropertyValue>
-        <PropertyValue name="DisablePreLoadNavigateToCache">false</PropertyValue>
         <PropertyValue name="EnterOutliningModeWhenFilesOpen">true</PropertyValue>
-        <PropertyValue name="EnableExpandPrecedence">false</PropertyValue>
+        <PropertyValue name="DisablePreLoadNavigateToCache">false</PropertyValue>
         <PropertyValue name="PreserveBlock">1</PropertyValue>
         <PropertyValue name="SpaceBeforeConstructorColon">true</PropertyValue>
         <PropertyValue name="SpaceBeforeBlockBrace">true</PropertyValue>
         <PropertyValue name="NewlineKeywordWhile">false</PropertyValue>
         <PropertyValue name="NewlineLambdaBrace">1</PropertyValue>
-        <PropertyValue name="DisableSharedIntelliSense">false</PropertyValue>
+        <PropertyValue name="EnableExpandPrecedence">false</PropertyValue>
         <PropertyValue name="AddSemicolonForClassTypes">true</PropertyValue>
-        <PropertyValue name="MemberListCommitCharacters">{}[]().,:;+-*/%&amp;|^!=&lt;&gt;?@#\</PropertyValue>
         <PropertyValue name="DisableReferenceHighlighting">false</PropertyValue>
         <PropertyValue name="DoNotWarnIfFallbackLocationUsed">true</PropertyValue>
         <PropertyValue name="DisableDatabaseImplicitAutoCleanup">false</PropertyValue>
-        <PropertyValue name="HideExperimentalAd">true</PropertyValue>
+        <PropertyValue name="DisableSharedIntelliSense">false</PropertyValue>
+        <PropertyValue name="MemberListCommitCharacters">{}[]().,:;+-*/%&amp;|^!=&lt;&gt;?@#\</PropertyValue>
         <PropertyValue name="EnableSingleFileISense">true</PropertyValue>
         <PropertyValue name="SpaceBeforeFunctionParenthesis">false</PropertyValue>
         <PropertyValue name="NewlineNamespaceBrace">1</PropertyValue>
         <PropertyValue name="AutoFormatOnSemicolon">true</PropertyValue>
         <PropertyValue name="RenameRenameStrings">false</PropertyValue>
-        <PropertyValue name="AutoTuneMaximumCachedTranslationUnits">true</PropertyValue>
-        <PropertyValue name="UseForwardSlashForIncludeAutoComplete">false</PropertyValue>
+        <PropertyValue name="EnableProjectCaching">false</PropertyValue>
         <PropertyValue name="DisableInactiveCodeOpacity">false</PropertyValue>
-        <PropertyValue name="HighlightMatchingTokens">true</PropertyValue>
         <PropertyValue name="DisableDatabaseUpdates">false</PropertyValue>
+        <PropertyValue name="UseForwardSlashForIncludeAutoComplete">false</PropertyValue>
+        <PropertyValue name="AutoTuneMaximumCachedTranslationUnits">true</PropertyValue>
         <PropertyValue name="DisableIntelliSenseUpdating">false</PropertyValue>
+        <PropertyValue name="HideExperimentalAd">true</PropertyValue>
+        <PropertyValue name="HighlightMatchingTokens">true</PropertyValue>
         <PropertyValue name="NewlineControlBlockBrace">1</PropertyValue>
         <PropertyValue name="IndentNamespaceContents">true</PropertyValue>
+        <PropertyValue name="IndentLambdaBraces">false</PropertyValue>
         <PropertyValue name="CompleteSlashStar">true</PropertyValue>
         <PropertyValue name="FallbackLocation">V:\TEMP</PropertyValue>
         <PropertyValue name="DisableErrorReporting">false</PropertyValue>
-        <PropertyValue name="MemberListDotToArrow">true</PropertyValue>
+        <PropertyValue name="ReferencesHideFailedResults">false</PropertyValue>
         <PropertyValue name="SpaceBeforeComma">false</PropertyValue>
         <PropertyValue name="IndentAccessSpecifiers">false</PropertyValue>
         <PropertyValue name="DisableBrowsingUpToDateCheck">true</PropertyValue>
         <PropertyValue name="DisableDatabaseImplicitFiles">false</PropertyValue>
+        <PropertyValue name="AutoPchCacheQuota">5120</PropertyValue>
+        <PropertyValue name="MemberListDotToArrow">false</PropertyValue>
         <PropertyValue name="SuspendNewSingleFileISenseDuringDebugging">false</PropertyValue>
         <PropertyValue name="SpaceAroundAssignmentOperator">2</PropertyValue>
         <PropertyValue name="RenameRenameUnconfirmed">false</PropertyValue>
-        <PropertyValue name="SmartMemberListCommitOnEnter">false</PropertyValue>
         <PropertyValue name="DisableReferencesResolving">false</PropertyValue>
         <PropertyValue name="DisableExternalDependenciesFolders">false</PropertyValue>
+        <PropertyValue name="SmartMemberListCommitOnEnter">false</PropertyValue>
         <PropertyValue name="DisableIntelliSense">false</PropertyValue>
-        <PropertyValue name="MemberListFilterHeuristic">false</PropertyValue>
         <PropertyValue name="ShowSingleFileISenseErrorsInTaskList">false</PropertyValue>
         <PropertyValue name="RemoveSpaceBeforeSemicolon">true</PropertyValue>
         <PropertyValue name="SpaceBetweenEmptyLambdaBrackets">false</PropertyValue>
         <PropertyValue name="SpaceBeforeControlBlockParenthesis">true</PropertyValue>
         <PropertyValue name="SpaceBetweenEmptyFunctionParentheses">false</PropertyValue>
         <PropertyValue name="PreserveParameterIndentation">false</PropertyValue>
-        <PropertyValue name="MemberListFilterInaccessible">true</PropertyValue>
         <PropertyValue name="AutomaticOutliningOfStatementBlocks">true</PropertyValue>
+        <PropertyValue name="MemberListFilterHeuristic">false</PropertyValue>
+        <PropertyValue name="MemberListFilterInaccessible">true</PropertyValue>
         <PropertyValue name="SpaceBeforeEmptyBracket">false</PropertyValue>
         <PropertyValue name="SpaceWithinExpressionParentheses">false</PropertyValue>
         <PropertyValue name="AutoFormatOnPaste2">1</PropertyValue>
@@ -888,52 +1125,57 @@
         <PropertyValue name="NewlineTypeBrace">1</PropertyValue>
         <PropertyValue name="DisableCreateDeclDefnScan">false</PropertyValue>
         <PropertyValue name="RenameRenameInactive">false</PropertyValue>
-        <PropertyValue name="MemberListFilterMode">3</PropertyValue>
         <PropertyValue name="ColorizeInactiveBlocksDifferently">true</PropertyValue>
+        <PropertyValue name="MemberListDotToArrow_1">true</PropertyValue>
+        <PropertyValue name="MemberListFilterMode">3</PropertyValue>
         <PropertyValue name="SpaceAfterCastParenthesis">false</PropertyValue>
         <PropertyValue name="RenameSkipPreviewIfConfirmed">false</PropertyValue>
-        <PropertyValue name="RescanSolutionInterval">60</PropertyValue>
         <PropertyValue name="AlwaysUseFallbackLocation">true</PropertyValue>
+        <PropertyValue name="RescanSolutionInterval">60</PropertyValue>
         <PropertyValue name="DisableDatabaseAutoUpdates">false</PropertyValue>
         <PropertyValue name="DisableSquiggles">false</PropertyValue>
         <PropertyValue name="EnableQuickInfoToolTips">true</PropertyValue>
-        <PropertyValue name="EnableExpandScopes">false</PropertyValue>
-        <PropertyValue name="EnableChangeSignature">false</PropertyValue>
-        <PropertyValue name="EnableExtractFunction">false</PropertyValue>
+        <PropertyValue name="IncludeHintsSuppress">true</PropertyValue>
+        <PropertyValue name="IndentBraces">false</PropertyValue>
         <PropertyValue name="PreserveCommentIndentation">true</PropertyValue>
         <PropertyValue name="IndentPreprocessor">2</PropertyValue>
         <PropertyValue name="IndentCaseBraces">false</PropertyValue>
         <PropertyValue name="AlignParameters">false</PropertyValue>
         <PropertyValue name="AutoFormatOnBraceCompletion">true</PropertyValue>
         <PropertyValue name="AutoFormatOnClosingBrace">true</PropertyValue>
+        <PropertyValue name="EnableChangeSignature">false</PropertyValue>
+        <PropertyValue name="EnableExtractFunction">false</PropertyValue>
+        <PropertyValue name="EnableExpandScopes">false</PropertyValue>
         <PropertyValue name="CompleteParensInRawString">true</PropertyValue>
-        <PropertyValue name="DisableSemanticColoring">false</PropertyValue>
         <PropertyValue name="InactiveCodeOpacityPercent">55</PropertyValue>
-        <PropertyValue name="IndentBraces">false</PropertyValue>
+        <PropertyValue name="DisableSemanticColoring">false</PropertyValue>
+        <PropertyValue name="ReferencesHideInStringResults">true</PropertyValue>
+        <PropertyValue name="ReferencesHidePPIf0Results">true</PropertyValue>
         <PropertyValue name="SpaceBeforeInheritanceColon">true</PropertyValue>
         <PropertyValue name="NewlineKeywordCatch">false</PropertyValue>
         <PropertyValue name="NewlineKeywordElse">false</PropertyValue>
-        <PropertyValue name="IndentCaseLabels">true</PropertyValue>
-        <PropertyValue name="HideUnconfirmedReferencesResults">false</PropertyValue>
         <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
-        <PropertyValue name="EnableSQLiteStoreEngine">true</PropertyValue>
+        <PropertyValue name="IndentCaseLabels">true</PropertyValue>
+        <PropertyValue name="ReferencesHideDisconfirmedResults">true</PropertyValue>
         <PropertyValue name="SpaceWithinLambdaBrackets">false</PropertyValue>
         <PropertyValue name="SpaceWithinBrackets">false</PropertyValue>
         <PropertyValue name="RenameSearchComments">true</PropertyValue>
+        <PropertyValue name="AutomaticOutliningOfPragmaRegions">true</PropertyValue>
+        <PropertyValue name="EnableSQLiteStoreEngine">true</PropertyValue>
+        <PropertyValue name="DisableAutoPch">false</PropertyValue>
         <PropertyValue name="DisableMemberListKeywords">false</PropertyValue>
         <PropertyValue name="EnumerateCommentTasks">true</PropertyValue>
-        <PropertyValue name="AutomaticOutliningOfPragmaRegions">true</PropertyValue>
         <PropertyValue name="SpaceAfterComma">true</PropertyValue>
         <PropertyValue name="SpaceBetweenEmptyBraces">false</PropertyValue>
         <PropertyValue name="IndentGotoLabels">1</PropertyValue>
         <PropertyValue name="RenameSearchStrings">true</PropertyValue>
         <PropertyValue name="RenameShowPreview">false</PropertyValue>
+        <PropertyValue name="RescanSolution">false</PropertyValue>
+        <PropertyValue name="DisableDatabase">false</PropertyValue>
         <PropertyValue name="DisableIntelliSenseErrorsInErrorList">false</PropertyValue>
         <PropertyValue name="MemberListCommitAggressive">false</PropertyValue>
         <PropertyValue name="DisableMemberListExpansions">false</PropertyValue>
         <PropertyValue name="LoggingFilter">0</PropertyValue>
-        <PropertyValue name="RescanSolution">false</PropertyValue>
-        <PropertyValue name="DisableDatabase">false</PropertyValue>
         <PropertyValue name="SpaceBeforeBracket">false</PropertyValue>
         <PropertyValue name="SpaceWithinFunctionParentheses">false</PropertyValue>
         <PropertyValue name="NewlineEmptyTypeCloseBrace">false</PropertyValue>
@@ -943,6 +1185,19 @@
       </ToolsOptionsSubCategory>
     </ToolsOptionsCategory>
   </ToolsOptions>
+  <Category name="XAML_Miscellaneous" Category="{b0906bd5-5690-4437-a380-b2b546175e71}" Package="{2ef1ec52-c8bf-4fe0-8ece-ba9c0d5d1603}" RegisteredName="XAML_Miscellaneous" PackageName="XamlLanguagePackage">
+    <PropertyValue name="AutoInsertAttributeQuotes">True</PropertyValue>
+    <PropertyValue name="AutoInsertCommas">True</PropertyValue>
+    <PropertyValue name="AutoInsertEndBraces">True</PropertyValue>
+    <PropertyValue name="AutoInsertEndTags">True</PropertyValue>
+    <PropertyValue name="AutoUpdateTags">True</PropertyValue>
+    <PropertyValue name="WarnMinTargetCompatibility">True</PropertyValue>
+  </Category>
+  <Category name="XAML_Spacing" Category="{ec45e459-a3f0-490e-8eed-5f7da51dde06}" Package="{2ef1ec52-c8bf-4fe0-8ece-ba9c0d5d1603}" RegisteredName="XAML_Spacing" PackageName="XamlLanguagePackage">
+    <PropertyValue name="AttributeFormat">Preserve</PropertyValue>
+    <PropertyValue name="BlankLineOption">Preserve</PropertyValue>
+    <PropertyValue name="KeepFirstAttributeOnSameLine">True</PropertyValue>
+  </Category>
   <Category name="CSS_Advanced" Category="{978df9f7-5f7c-46c1-afe6-3e4335e93514}" Package="{5330c67f-305c-4b17-a3dc-fbb7aee69c09}" RegisteredName="CSS_Advanced" PackageName="CssPackage"/>
   <Category name="CodeLens" Category="{04DA95C1-B198-491D-BB93-DAD8610F3019}" Package="{E269B994-EF71-4CE0-8BCD-581C217372E8}" RegisteredName="CodeLens" PackageName="Microsoft.VisualStudio.Editor.Implementation.EditorPackage">
     <PropertyValue name="IsCodeLensEnabled">true</PropertyValue>
@@ -950,18 +1205,20 @@
   </Category>
   <Category name="CoffeeScript_Advanced" Category="{9a5ed2f4-b737-4876-9b7f-7a94e634e74f}" Package="{52244c9d-db46-4905-bda0-b3406c46d2a4}" RegisteredName="CoffeeScript_Advanced" PackageName="CoffeeScriptPackage"/>
   <Category name="HTML Tag Specific" Category="{7583bb73-a453-40e8-8951-b6986ddb1d9b}" Package="{1B437D20-F8FE-11D2-A6AE-00104BCC7269}" RegisteredName="HTML Tag Specific" PackageName="Visual Studio HTM Editor Package"/>
-  <Category name="HTMLX_Advanced" Category="{3d9c2439-5c0a-4592-b9e8-42e26dfe636b}" Package="{cf49ec7d-92b1-4bbd-9254-9cc13978e82e}" RegisteredName="HTMLX_Advanced" PackageName="HtmlPackage"/>
-  <Category name="JSON_Advanced" Category="{78c48687-be97-424b-a3fa-378de0dac07c}" Package="{a6efef5f-be9b-432a-adfe-74a119ab4478}" RegisteredName="JSON_Advanced" PackageName="JSONPackage">
-    <PropertyValue name="AutoFormat">On</PropertyValue>
-    <PropertyValue name="AutoStructureCompletion">True</PropertyValue>
-    <PropertyValue name="BracePositionStyle">Semi-expanded</PropertyValue>
+  <Category name="HTMLX_Advanced" Category="{3d9c2439-5c0a-4592-b9e8-42e26dfe636b}" Package="{cf49ec7d-92b1-4bbd-9254-9cc13978e82e}" RegisteredName="HTMLX_Advanced" PackageName="HtmlPackage">
+    <PropertyValue name="EnableTagHelperTooltips">True</PropertyValue>
+    <PropertyValue name="EnableTagNavigator">False</PropertyValue>
+    <PropertyValue name="EnableTooltips">True</PropertyValue>
     <PropertyValue name="EnableValidation">True</PropertyValue>
     <PropertyValue name="ErrorsAsWarnings">True</PropertyValue>
-    <PropertyValue name="VerbosePackageManagementOutput">False</PropertyValue>
+    <PropertyValue name="FormatOnPaste">True</PropertyValue>
+    <PropertyValue name="IdentifyHelpfulExtensions">True</PropertyValue>
+    <PropertyValue name="InsertAttributeValueQuotes">True</PropertyValue>
+    <PropertyValue name="InsertClosingTag">True</PropertyValue>
+    <PropertyValue name="XHtmlCodingStyle">True</PropertyValue>
   </Category>
-  <Category name="JSON_Schema" Category="{A274BD6E-74E6-4698-B631-1690B1E514BB}" Package="{a6efef5f-be9b-432a-adfe-74a119ab4478}" RegisteredName="JSON_Schema" PackageName="JSONPackage">
-    <PropertyValue name="SchemaCatalogs">http://schemastore.org/api/json/catalog.json</PropertyValue>
-  </Category>
+  <Category name="JSON_Advanced" Category="{78c48687-be97-424b-a3fa-378de0dac07c}" Package="{a6efef5f-be9b-432a-adfe-74a119ab4478}" RegisteredName="JSON_Advanced" PackageName="JSONPackage"/>
+  <Category name="JSON_Schema" Category="{A274BD6E-74E6-4698-B631-1690B1E514BB}" Package="{a6efef5f-be9b-432a-adfe-74a119ab4478}" RegisteredName="JSON_Schema" PackageName="JSONPackage"/>
   <Category name="LESS_Advanced" Category="{1b200b66-f69e-452e-9c6f-d38f9cb0628b}" Package="{f4b61ec8-36d8-4155-b2a0-199587d8ddcc}" RegisteredName="LESS_Advanced" PackageName="LessPackage">
     <PropertyValue name="AutoFormat">Off</PropertyValue>
     <PropertyValue name="BracePositionStyle">Semi-expanded</PropertyValue>
@@ -972,6 +1229,7 @@
   </Category>
   <Category name="SCSS_Advanced" Category="{cea4fb93-f562-4d14-980f-8d9cab6e0a71}" Package="{60116bb0-6f13-49e2-a1ce-a185c783b68b}" RegisteredName="SCSS_Advanced" PackageName="ScssPackage"/>
   <Category name="XAML_Formatting" Category="{dac05320-0c3a-4ead-a332-8c23b0cfc130}" Package="{2ef1ec52-c8bf-4fe0-8ece-ba9c0d5d1603}" RegisteredName="XAML_Formatting" PackageName="XamlLanguagePackage">
+    <PropertyValue name="AutoOutlining">True</PropertyValue>
     <PropertyValue name="AutoReformatOnEndTag">True</PropertyValue>
     <PropertyValue name="AutoReformatOnPaste">True</PropertyValue>
     <PropertyValue name="AutoReformatOnStartTag">True</PropertyValue>
@@ -991,5 +1249,14 @@
     <PropertyValue name="AutoReformatOnPaste">True</PropertyValue>
     <PropertyValue name="FormatMixedContentByDefault">True</PropertyValue>
     <PropertyValue name="SchemaCacheLocation">%VsInstallDir%\xml\Schemas</PropertyValue>
+  </Category>
+  <Category name="CoffeeScript_CoffeeLint" Category="{d87c87c9-b788-4c01-9d3c-78cdda5ee60e}" Package="{52244c9d-db46-4905-bda0-b3406c46d2a4}" RegisteredName="CoffeeScript_CoffeeLint" PackageName="CoffeeScriptPackage">
+    <PropertyValue name="IsLinterEnabled">True</PropertyValue>
+  </Category>
+  <Category name="CSS_CssLint" Category="{4f8c9198-522a-48e6-bfa8-e704f98b88ee}" Package="{5330C67F-305C-4B17-A3DC-FBB7AEE69C09}" RegisteredName="CSS_CssLint" PackageName="CssPackage">
+    <PropertyValue name="IsLinterEnabled">True</PropertyValue>
+  </Category>
+  <Category name="TypeScript_EsLint" Category="{a9135013-531c-4a70-9782-02836a29dcf2}" Package="{30db8f9b-ec9f-44d6-b377-83c7c27a1a8b}" RegisteredName="TypeScript_EsLint" PackageName="JavaScriptWebExtensionsPackage">
+    <PropertyValue name="IsLinterEnabled">True</PropertyValue>
   </Category>
 </UserSettings>
