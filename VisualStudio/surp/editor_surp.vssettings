@@ -506,33 +506,6 @@
         <PropertyValue name="Indent_BlockContents">1</PropertyValue>
         <PropertyValue name="ShowCompletionItemFilters">1</PropertyValue>
       </ToolsOptionsSubCategory>
-      <ToolsOptionsSubCategory name="CoffeeScript" RegisteredName="CoffeeScript" PackageName="Text Management Package">
-        <PropertyValue name="TabSize">4</PropertyValue>
-        <PropertyValue name="ShowChanges">true</PropertyValue>
-        <PropertyValue name="AutoListMembers">true</PropertyValue>
-        <PropertyValue name="ShowPreview">false</PropertyValue>
-        <PropertyValue name="ShowMarks">true</PropertyValue>
-        <PropertyValue name="IndentStyle">2</PropertyValue>
-        <PropertyValue name="ShowCaretPosition">true</PropertyValue>
-        <PropertyValue name="HideAdvancedMembers">true</PropertyValue>
-        <PropertyValue name="ShowNavigationBar">true</PropertyValue>
-        <PropertyValue name="UseMapMode">true</PropertyValue>
-        <PropertyValue name="VirtualSpace">false</PropertyValue>
-        <PropertyValue name="ShowAnnotations">true</PropertyValue>
-        <PropertyValue name="ShowVerticalScrollBar">true</PropertyValue>
-        <PropertyValue name="InsertTabs">false</PropertyValue>
-        <PropertyValue name="WordWrapGlyphs">true</PropertyValue>
-        <PropertyValue name="EnableLeftClickForURLs">true</PropertyValue>
-        <PropertyValue name="ShowErrors">true</PropertyValue>
-        <PropertyValue name="OverviewWidth">0</PropertyValue>
-        <PropertyValue name="ShowLineNumbers">true</PropertyValue>
-        <PropertyValue name="WordWrap">false</PropertyValue>
-        <PropertyValue name="IndentSize">4</PropertyValue>
-        <PropertyValue name="BraceCompletion">false</PropertyValue>
-        <PropertyValue name="ShowHorizontalScrollBar">true</PropertyValue>
-        <PropertyValue name="CutCopyBlankLines">true</PropertyValue>
-        <PropertyValue name="AutoListParams">true</PropertyValue>
-      </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="HTML" RegisteredName="HTML" PackageName="Text Management Package">
         <PropertyValue name="TabSize">4</PropertyValue>
         <PropertyValue name="ShowChanges">true</PropertyValue>
@@ -1183,6 +1156,7 @@
         <PropertyValue name="DisableIncludeAutoComplete">false</PropertyValue>
         <PropertyValue name="EnableLogging">false</PropertyValue>
       </ToolsOptionsSubCategory>
+      <ToolsOptionsSubCategory name="CoffeeScript" RegisteredName="CoffeeScript" PackageName="CoffeeScriptPackage"/>
     </ToolsOptionsCategory>
   </ToolsOptions>
   <Category name="XAML_Miscellaneous" Category="{b0906bd5-5690-4437-a380-b2b546175e71}" Package="{2ef1ec52-c8bf-4fe0-8ece-ba9c0d5d1603}" RegisteredName="XAML_Miscellaneous" PackageName="XamlLanguagePackage">
