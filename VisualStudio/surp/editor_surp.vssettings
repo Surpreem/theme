@@ -1056,7 +1056,7 @@
         <PropertyValue name="HighlightMatchingTokens">true</PropertyValue>
         <PropertyValue name="NewlineControlBlockBrace">1</PropertyValue>
         <PropertyValue name="IndentNamespaceContents">true</PropertyValue>
-        <PropertyValue name="IndentLambdaBraces">false</PropertyValue>
+        <PropertyValue name="IndentLambdaBraces">true</PropertyValue>
         <PropertyValue name="CompleteSlashStar">true</PropertyValue>
         <PropertyValue name="FallbackLocation">V:\TEMP</PropertyValue>
         <PropertyValue name="DisableErrorReporting">false</PropertyValue>
