@@ -229,6 +229,7 @@
               <Item Name="ReSharper Constant Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Hyperlink" Foreground="0x00F9DA99" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Brace Outline" Foreground="0x02000000" Background="0x00000000" BoldFont="No"/>
+              <Item Name="ReSharper Unmatched Brace" Foreground="0x01000000" Background="0x000000C8" BoldFont="No"/>
               <Item Name="ReSharper Matched Brace" Foreground="0x00808080" Background="0x00000000" BoldFont="No"/>
               <Item Name="ReSharper JavaScript XML Documentation Comment" Foreground="0x007A7466" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Warning" Foreground="0x00DD6F00" Background="0x02000000" BoldFont="No"/>
