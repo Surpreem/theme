@@ -744,7 +744,7 @@
     <option name="OC.ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.LABEL">
@@ -1168,6 +1168,7 @@
         <option name="FOREGROUND" value="ec7600" />
       </value>
     </option>
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bd63c5" />
