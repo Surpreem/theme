@@ -2,6 +2,7 @@
   <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="13" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <colors>
@@ -432,6 +433,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
+        <option name="FOREGROUND" value="f1f2f3" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -449,7 +451,6 @@
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="ec7600" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -781,7 +782,7 @@
     <option name="OC.TEMPLATE_VALUE">
       <value>
         <option name="FOREGROUND" value="678cb1" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.TYPEDEF">
@@ -906,7 +907,6 @@
     <option name="PY.PREDEFINED_DEFINITION">
       <value>
         <option name="FOREGROUND" value="a082bd" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
@@ -920,18 +920,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="PY.STRING.B">
-      <value>
-        <option name="FOREGROUND" value="ec7600" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.STRING.U">
-      <value>
-        <option name="FOREGROUND" value="ec7600" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="808080" />
