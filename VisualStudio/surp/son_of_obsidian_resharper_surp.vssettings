@@ -29,7 +29,7 @@
               <Item Name="XML CData Section" Foreground="0x008AA399" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Attribute" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Name" Foreground="0x0063C793" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XML Comment" Foreground="0x007B7466" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XML Comment" Foreground="0x007A7466" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Delimiter" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Keyword" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Text" Foreground="0x00FFFFFF" Background="0x02000000" BoldFont="No"/>
@@ -41,7 +41,7 @@
               <Item Name="XAML CData Section" Foreground="0x008AA399" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Attribute" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Name" Foreground="0x0063C793" Background="0x02000000" BoldFont="No"/>
-              <Item Name="XAML Comment" Foreground="0x007B7466" Background="0x02000000" BoldFont="No"/>
+              <Item Name="XAML Comment" Foreground="0x007A7466" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Delimiter" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="XAML Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
@@ -110,7 +110,7 @@
               <Item Name="outlining.collapsehintadornment" Foreground="0x00514E3E" Background="0x02000000" BoldFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
               <Item Name="Selected Text" Foreground="0x00FFFFFF" Background="0x00808080" BoldFont="No"/>
-              <Item Name="Line Number" Foreground="0x00494E35" Background="0x00343129" BoldFont="No"/>
+              <Item Name="Line Number" Foreground="0x007A7466" Background="0x00343129" BoldFont="No"/>
               <Item Name="compiler error" Foreground="0x000000FF" Background="0x02000000" BoldFont="No"/>
               <Item Name="syntax error" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
               <Item Name="Number" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
