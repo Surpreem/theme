@@ -1,0 +1,119 @@
+<code_scheme name="CodeStyle_Surp" version="173">
+  <option name="RIGHT_MARGIN" value="80" />
+  <Objective-C>
+    <option name="KEEP_STRUCTURES_IN_ONE_LINE" value="true" />
+    <option name="KEEP_NESTED_NAMESPACES_IN_ONE_LINE" value="true" />
+    <option name="FUNCTION_BRACE_PLACEMENT" value="2" />
+    <option name="FUNCTION_NON_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+    <option name="FUNCTION_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
+    <option name="FUNCTION_PARAMETERS_WRAP" value="5" />
+    <option name="FUNCTION_PARAMETERS_ALIGN_MULTILINE" value="false" />
+    <option name="FUNCTION_PARAMETERS_NEW_LINE_AFTER_LPAR" value="true" />
+    <option name="LAMBDA_CAPTURE_LIST_WRAP" value="5" />
+    <option name="LAMBDA_CAPTURE_LIST_NEW_LINE_AFTER_LBRACKET" value="true" />
+    <option name="FUNCTION_CALL_ARGUMENTS_WRAP" value="5" />
+    <option name="FUNCTION_CALL_ARGUMENTS_ALIGN_MULTILINE" value="false" />
+    <option name="FUNCTION_CALL_ARGUMENTS_NEW_LINE_AFTER_LPAR" value="true" />
+    <option name="SHIFT_OPERATION_WRAP" value="5" />
+    <option name="SHIFT_OPERATION_ALIGN_MULTILINE" value="false" />
+    <option name="TEMPLATE_PARAMETERS_WRAP" value="5" />
+    <option name="TEMPLATE_PARAMETERS_NEW_LINE_AFTER_LT" value="true" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_WRAP" value="5" />
+    <option name="TEMPLATE_CALL_ARGUMENTS_NEW_LINE_AFTER_LT" value="true" />
+    <option name="CLASS_CONSTRUCTOR_INIT_LIST_WRAP" value="5" />
+    <option name="CLASS_CONSTRUCTOR_INIT_LIST_ALIGN_MULTILINE" value="false" />
+    <option name="SPACE_BEFORE_TEMPLATE_DECLARATION_LT" value="true" />
+    <option name="SPACE_WITHIN_TEMPLATE_DOUBLE_GT" value="false" />
+    <option name="ALIGN_INIT_LIST_IN_COLUMNS" value="false" />
+    <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
+    <option name="SPACE_BEFORE_POINTER_IN_DECLARATION" value="false" />
+    <option name="SPACE_AFTER_POINTER_IN_DECLARATION" value="true" />
+    <option name="SPACE_BEFORE_REFERENCE_IN_DECLARATION" value="false" />
+    <option name="SPACE_AFTER_REFERENCE_IN_DECLARATION" value="true" />
+    <option name="KEEP_BLANK_LINES_BEFORE_END" value="1" />
+    <option name="TAG_PREFIX_OF_LINE_COMMENT" value="AT" />
+    <option name="TYPE_QUALIFIERS_PLACEMENT" value="AFTER" />
+  </Objective-C>
+  <Objective-C-extensions>
+    <option name="TAG_PREFIX_OF_LINE_COMMENT" value="AT" />
+    <option name="TYPE_QUALIFIERS_PLACEMENT" value="AFTER" />
+    <file />
+    <class>
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
+      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
+    </class>
+    <extensions>
+      <pair source="cpp" header="h" fileNamingConvention="SNAKE_CASE" />
+      <pair source="c" header="h" fileNamingConvention="NONE" />
+    </extensions>
+  </Objective-C-extensions>
+  <Python>
+    <option name="ALIGN_COLLECTIONS_AND_COMPREHENSIONS" value="false" />
+    <option name="ALIGN_MULTILINE_IMPORTS" value="false" />
+    <option name="NEW_LINE_AFTER_COLON" value="true" />
+    <option name="FROM_IMPORT_WRAPPING" value="5" />
+  </Python>
+  <codeStyleSettings language="CMake">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
+    <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
+    <option name="BLANK_LINES_AROUND_CLASS" value="2" />
+    <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+    <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
+    <option name="WHILE_ON_NEW_LINE" value="true" />
+    <option name="ALIGN_MULTILINE_FOR" value="false" />
+    <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="false" />
+    <option name="ALIGN_MULTILINE_ASSIGNMENT" value="false" />
+    <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="false" />
+    <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="false" />
+    <option name="SPACE_WITHIN_BRACES" value="false" />
+    <option name="SPACE_AFTER_TYPE_CAST" value="false" />
+    <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    <option name="BINARY_OPERATION_WRAP" value="5" />
+    <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+    <option name="TERNARY_OPERATION_WRAP" value="5" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="false" />
+    <option name="FOR_STATEMENT_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_WRAP" value="5" />
+    <option name="ARRAY_INITIALIZER_LBRACE_ON_NEXT_LINE" value="true" />
+    <option name="ASSIGNMENT_WRAP" value="1" />
+    <option name="IF_BRACE_FORCE" value="1" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Python">
+    <option name="RIGHT_MARGIN" value="79" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="false" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
