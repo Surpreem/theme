@@ -536,6 +536,13 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="eff284" />
+        <option name="ERROR_STRIPE_COLOR" value="3763b0" />
+      </value>
+    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -740,6 +747,13 @@
       <value>
         <option name="BACKGROUND" value="0" />
         <option name="EFFECT_COLOR" value="808080" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="eff284" />
+        <option name="ERROR_STRIPE_COLOR" value="3763b0" />
       </value>
     </option>
     <option name="OC.ENUM_CONST">
