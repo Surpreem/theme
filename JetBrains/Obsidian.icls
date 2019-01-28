@@ -231,17 +231,17 @@
     </option>
     <option name="CSS.ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="a082bd" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="CSS.CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="a082bd" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="CSS.COLOR">
       <value>
-        <option name="FOREGROUND" value="bd63c5" />
+        <option name="FOREGROUND" value="ec7600" />
       </value>
     </option>
     <option name="CSS.FUNCTION">
@@ -251,7 +251,7 @@
     </option>
     <option name="CSS.HASH">
       <value>
-        <option name="FOREGROUND" value="a082bd" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="CSS.IDENT">
@@ -270,14 +270,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="CSS.PROPERTY_NAME">
-      <value>
-        <option name="FOREGROUND" value="a082bd" />
-      </value>
-    </option>
     <option name="CSS.PSEUDO">
       <value>
-        <option name="FOREGROUND" value="a082bd" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="CSS.UNICODE.RANGE">
