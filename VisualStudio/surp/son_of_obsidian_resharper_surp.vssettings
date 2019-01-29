@@ -217,6 +217,7 @@
               <Item Name="ReSharper Regex Group" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Regex Set" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x000C425F" BoldFont="No"/>
+              <Item Name="ReSharper Format String Item" Foreground="0x0022A0FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Late Bound Identifier" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Namespace Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Operator Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
