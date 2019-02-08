@@ -229,6 +229,11 @@
         <option name="FOREGROUND" value="ffcd22" />
       </value>
     </option>
+    <option name="CONSTRUCTOR_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="678cb1" />
+      </value>
+    </option>
     <option name="CSS.ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="678cb1" />
@@ -329,7 +334,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="bd63c5" />
+        <option name="FOREGROUND" value="f1f2f3" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -371,7 +376,7 @@
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="f1f2f3" />
+        <option name="FOREGROUND" value="678cb1" />
       </value>
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
@@ -1174,7 +1179,7 @@
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bd63c5" />
+        <option name="FOREGROUND" value="f1f2f3" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
