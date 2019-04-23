@@ -77,18 +77,9 @@
   <Objective-C-extensions>
     <option name="TAG_PREFIX_OF_LINE_COMMENT" value="AT" />
     <option name="TYPE_QUALIFIERS_PLACEMENT" value="AFTER" />
-    <file />
-    <class>
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Property" />
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Synthesize" />
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InitMethod" />
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="StaticMethod" />
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="InstanceMethod" />
-      <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="DeallocMethod" />
-    </class>
     <extensions>
       <pair source="cpp" header="h" fileNamingConvention="SNAKE_CASE" />
-      <pair source="c" header="h" fileNamingConvention="NONE" />
+      <pair source="c" header="h" fileNamingConvention="SNAKE_CASE" />
     </extensions>
   </Objective-C-extensions>
   <Python>
