@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[diff]
+	tool = bc
+[merge]
+	conflictStyle = diff3
+[difftool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+[mergetool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+[alias]
+    lg = !"git lg0"
+    lg0 = !"git lg0-specific --all"
+
+    lg0-specific = log --graph --oneline --decorate
+
+[user]
+# Please adapt and uncomment the following lines:
+#	name = 
+#	email = 
