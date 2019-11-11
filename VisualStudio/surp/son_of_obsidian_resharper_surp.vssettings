@@ -65,6 +65,7 @@
             <Items>
               <Item Name="XML Doc Tag" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Doc Comment" Foreground="0x008AA399" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppControlKeywordSyntacticTokenFormat" Foreground="0x0063C793" Background="0x01000001" BoldFont="No"/>
               <Item Name="C/C++ User Keywords" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppNewDeleteSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppMemberOperatorSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
@@ -121,6 +122,7 @@
               <Item Name="enum name" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="delegate name" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="class name" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
+              <Item Name="keyword - control" Foreground="0x0063C793" Background="0x01000001" BoldFont="No"/>
               <Item Name="string - verbatim" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
               <Item Name="punctuation" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="VBScript Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
