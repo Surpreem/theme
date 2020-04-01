@@ -1,8 +1,8 @@
 <scheme name="Obsidian" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-  <option name="EDITOR_LIGATURES" value="true" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_FONT_NAME" value="SauceCodePro NF" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <colors>
@@ -28,7 +28,7 @@
         <option name="FOREGROUND" value="7f7f7f" />
       </value>
     </option>
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="660000" />
@@ -455,7 +455,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ec7600" />
+        <option name="FOREGROUND" value="ffd68f" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -663,11 +663,23 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="5a5a5a" />
-        <option name="BACKGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="8c8b6c" />
+        <option name="BACKGROUND" value="2d2f3d" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="8c8b6c" />
+        <option name="BACKGROUND" value="2d2f06" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="8c8b6c" />
+        <option name="BACKGROUND" value="7f7f7f" />
+      </value>
+    </option>
+    <option name="INSTANCE_FIELD_ATTRIBUTES" baseAttributes="" />
     <option name="Identifier">
       <value>
         <option name="FOREGROUND" value="668cb0" />
@@ -940,12 +952,6 @@
       </value>
     </option>
     <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
-    <option name="PY.VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="808080" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="Parenthesis">
       <value>
         <option name="FOREGROUND" value="e8e2b7" />
@@ -1176,7 +1182,7 @@
         <option name="FOREGROUND" value="ec7600" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
+    <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f1f2f3" />
