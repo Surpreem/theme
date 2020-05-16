@@ -71,24 +71,25 @@
               <Item Name="XML Doc Tag" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
               <Item Name="XML Doc Comment" Foreground="0x008AA399" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppStringDelimiterCharacterSyntacticTokenFormat" Foreground="0x000076EC" Background="0x01000001" BoldFont="No"/>
+              <Item Name="CppStringEscapeCharacterSyntacticTokenFormat" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppControlKeywordSyntacticTokenFormat" Foreground="0x0063C793" Background="0x01000001" BoldFont="No"/>
               <Item Name="C/C++ User Keywords" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppNewDeleteSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppMemberOperatorSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
-              <Item Name="CppOperatorSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="CppUDLStringSemanticTokenFormat" Foreground="0x000076EC" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="CppOperatorSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppUDLStringSemanticTokenFormat" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppUDLNumberSemanticTokenFormat" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
-              <Item Name="CppUDLRawSemanticTokenFormat" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="CppUDLRawSemanticTokenFormat" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppNamespaceSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppFunctionTemplateSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
-              <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="CppGenericTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppClassTemplateSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
-              <Item Name="CppEventSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="CppEventSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No"/>
               <Item Name="CppPropertySemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppStaticMemberFieldSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="CppStaticMemberFunctionSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="CppMemberFieldSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
-              <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="CppMemberFieldSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="CppMemberFunctionSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppFunctionSemanticTokenFormat" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppValueTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CppRefTypeSemanticTokenFormat" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
@@ -131,6 +132,7 @@
               <Item Name="delegate name" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="class name" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="keyword - control" Foreground="0x0063C793" Background="0x01000001" BoldFont="No"/>
+              <Item Name="string - escape character" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="string - verbatim" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No"/>
               <Item Name="punctuation" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="VBScript Identifier" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
@@ -150,6 +152,7 @@
               <Item Name="HtmlClientTemplateValueFormatDefinition" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
               <Item Name="HtmlClientTemplateTagFormatDefinition" Foreground="0x0063C793" Background="0x02000000" BoldFont="No"/>
               <Item Name="HtmlClientTemplateSeparatorFormatDefinition" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Doxygen Command" Foreground="0x008C8778" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper C++ Preprocessor Macro Identifier" Foreground="0x00C563BD" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Dependent Name Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Template Parameter Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
@@ -163,13 +166,14 @@
               <Item Name="ReSharper C++ Static Field Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="Yes"/>
               <Item Name="ReSharper C++ Struct Field Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Class Field Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Concept Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Global Variable Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Parameter Variable Identifier" Foreground="0x007F7F7F" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Local Variable Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Namespace Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper C++ Union Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Union Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Enum Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper C++ Struct Identifier" Foreground="0x00AA9067" Background="0x02000000" BoldFont="No"/>
+              <Item Name="ReSharper C++ Struct Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper C++ Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS String Value" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
               <Item Name="CSS Property Value" Foreground="0x000076EC" Background="0x02000000" BoldFont="No"/>
@@ -204,9 +208,9 @@
               <Item Name="ReSharper C# Static Field Identifier" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="Yes"/>
               <Item Name="ReSharper C# Field Identifier" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper C# Event Identifier" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper C# Constant Identifier" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="Yes"/>
-              <Item Name="ReSharper C# Escape Character 2" Foreground="0x008FD6FF" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper C# Escape Character 1" Foreground="0x008FD6FF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper C# Constant Identifier" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper C# Escape Character 2" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper C# Escape Character 1" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Template Editor HTML Comment" Foreground="0x007A7466" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper HTML Entity 2" Foreground="0x00C563BD" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper HTML Entity 1" Foreground="0x00C563BD" Background="0x02000000" BoldFont="No"/>
@@ -222,7 +226,7 @@
               <Item Name="ReSharper JavaScript Local Function Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper JavaScript Function Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper JavaScript Parameter Identifier" Foreground="0x007F7F7F" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper JavaScript Block-Local Constant Identifier" Foreground="0x00C563BD" Background="0x02000000" BoldFont="Yes"/>
+              <Item Name="ReSharper JavaScript Block-Local Constant Identifier" Foreground="0x00C563BD" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper JavaScript Block-Local Variable Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper JavaScript Local Variable Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Template Editor CSS Comment" Foreground="0x007A7466" Background="0x01000001" BoldFont="No"/>
@@ -246,11 +250,11 @@
               <Item Name="ReSharper Enum Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Struct Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper Class Identifier" Foreground="0x00B18C67" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x001E1E1E" BoldFont="Yes"/>
+              <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x001E1E1E" BoldFont="No"/>
               <Item Name="ReSharper Template Editor Template Keyword" Foreground="0x00FF8000" Background="0x02000000" BoldFont="No"/>
               <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x00808080" Background="0x02000000" BoldFont="No"/>
-              <Item Name="ReSharper String Escape Character 2" Foreground="0x008FD6FF" Background="0x01000001" BoldFont="No"/>
-              <Item Name="ReSharper String Escape Character 1" Foreground="0x008FD6FF" Background="0x01000001" BoldFont="Yes"/>
+              <Item Name="ReSharper String Escape Character 2" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
+              <Item Name="ReSharper String Escape Character 1" Foreground="0x0050B4FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Matched Format String Item" Foreground="0x02000000" Background="0x000C425F" BoldFont="No"/>
               <Item Name="ReSharper Format String Item" Foreground="0x0022A0FF" Background="0x01000001" BoldFont="No"/>
               <Item Name="ReSharper Namespace Identifier" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No"/>
