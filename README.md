@@ -22,7 +22,7 @@ The introduction of Son of Obsidian color theme is [here](https://surpreem.com/v
 
 ### Clangformat
 
-* my formatting style (C++ only, for v9.0.0)
+* my formatting style (C++ only, for v11.0.0)
 
 ### git
 

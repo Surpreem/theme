@@ -801,7 +801,9 @@
       </value>
     </option>
     <option name="OC.MACRO_PARAMETER">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="7f7f7f" />
+      </value>
     </option>
     <option name="OC.NAMESPACE_LIKE">
       <value>
