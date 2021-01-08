@@ -92,6 +92,7 @@
         <PropertyValue name="AutoListParams">true</PropertyValue>
       </ToolsOptionsSubCategory>
       <ToolsOptionsSubCategory name="C/C++ Specific" RegisteredName="C/C++ Specific" PackageName="Visual C++ Language Manager Package">
+        <PropertyValue name="TaskScopeHideSolutionFile">false</PropertyValue>
         <PropertyValue name="DisableCurrentItemSelection">true</PropertyValue>
         <PropertyValue name="DisableAggressiveMemberList">false</PropertyValue>
         <PropertyValue name="MaximumCachedTranslationUnits">15</PropertyValue>
@@ -103,9 +104,10 @@
         <PropertyValue name="IndentBlockContents">false</PropertyValue>
         <PropertyValue name="ReferencesHideInCommentResults">true</PropertyValue>
         <PropertyValue name="ReferencesHideUnconfirmedResults">true</PropertyValue>
+        <PropertyValue name="EnableLinter">false</PropertyValue>
         <PropertyValue name="RefactorScope">2</PropertyValue>
         <PropertyValue name="RecreateDatabase">false</PropertyValue>
-        <PropertyValue name="MaximumFindReferencesThreads">7</PropertyValue>
+        <PropertyValue name="MaximumFindReferencesThreads">3</PropertyValue>
         <PropertyValue name="DisableHLSLIntelliSense">true</PropertyValue>
         <PropertyValue name="MemberListFilterPredictive">false</PropertyValue>
         <PropertyValue name="UseTabToInsertSnippet">true</PropertyValue>
@@ -113,6 +115,7 @@
         <PropertyValue name="SpaceWithinCastParentheses">false</PropertyValue>
         <PropertyValue name="NewlineInitListBrace">0</PropertyValue>
         <PropertyValue name="IndentCaseContents">true</PropertyValue>
+        <PropertyValue name="ContinueCommentsOnEnter">true</PropertyValue>
         <PropertyValue name="MaximumErrorFixErrors">50</PropertyValue>
         <PropertyValue name="EnterOutliningModeWhenFilesOpen">true</PropertyValue>
         <PropertyValue name="DisablePreLoadNavigateToCache">false</PropertyValue>
@@ -126,7 +129,7 @@
         <PropertyValue name="DefaultFormattingStyle">0</PropertyValue>
         <PropertyValue name="ColorScheme">1</PropertyValue>
         <PropertyValue name="EnableSwitchToSlnInfoBar">true</PropertyValue>
-        <PropertyValue name="DisableExperimentalCodeAnalysisFixits">2</PropertyValue>
+        <PropertyValue name="DisableExperimentalCodeAnalysisFixits">0</PropertyValue>
         <PropertyValue name="EnableExpandPrecedence">false</PropertyValue>
         <PropertyValue name="AddSemicolonForClassTypes">true</PropertyValue>
         <PropertyValue name="DisableReferenceHighlighting">false</PropertyValue>
@@ -140,7 +143,7 @@
         <PropertyValue name="SpaceBeforeConstructorColon">true</PropertyValue>
         <PropertyValue name="SpaceBeforeBlockBrace">true</PropertyValue>
         <PropertyValue name="NewlineKeywordWhile">false</PropertyValue>
-        <PropertyValue name="NewlineLambdaBrace">0</PropertyValue>
+        <PropertyValue name="NewlineLambdaBrace">1</PropertyValue>
         <PropertyValue name="EnableSingleFileISense">true</PropertyValue>
         <PropertyValue name="RenameRenameStrings">false</PropertyValue>
         <PropertyValue name="EnableProjectCaching">false</PropertyValue>
@@ -149,7 +152,7 @@
         <PropertyValue name="UseForwardSlashForIncludeAutoComplete">true</PropertyValue>
         <PropertyValue name="AutoTuneMaximumCachedTranslationUnits">true</PropertyValue>
         <PropertyValue name="DisableIntelliSenseUpdating">false</PropertyValue>
-        <PropertyValue name="HideExperimentalAd">true</PropertyValue>
+        <PropertyValue name="HideExperimentalAd">false</PropertyValue>
         <PropertyValue name="HighlightMatchingTokens">true</PropertyValue>
         <PropertyValue name="SpaceBeforeFunctionParenthesis">false</PropertyValue>
         <PropertyValue name="NewlineNamespaceBrace">1</PropertyValue>
@@ -164,6 +167,7 @@
         <PropertyValue name="NewlineControlBlockBrace">1</PropertyValue>
         <PropertyValue name="IndentNamespaceContents">true</PropertyValue>
         <PropertyValue name="IndentLambdaBraces">true</PropertyValue>
+        <PropertyValue name="TaskScopeHideImplicitFile">false</PropertyValue>
         <PropertyValue name="ReferencesHideFailedResults">false</PropertyValue>
         <PropertyValue name="SuppressCMakeVcxprojNotificationInfoBar">false</PropertyValue>
         <PropertyValue name="DisableBrowsingUpToDateCheck">true</PropertyValue>
@@ -185,6 +189,7 @@
         <PropertyValue name="SpaceAroundAssignmentOperator">2</PropertyValue>
         <PropertyValue name="ClangFormatExePath">C:\Programs\clformat\clang-format.exe</PropertyValue>
         <PropertyValue name="DontShowClangFormatFileFound">false</PropertyValue>
+        <PropertyValue name="UninitializedLocalVariableErrorTagType">1</PropertyValue>
         <PropertyValue name="DisableVCCodeAnalysisUX">false</PropertyValue>
         <PropertyValue name="IncludeHintsSuppressGoogleTest">false</PropertyValue>
         <PropertyValue name="ShowSingleFileISenseErrorsInTaskList">false</PropertyValue>
@@ -218,6 +223,7 @@
         <PropertyValue name="SpaceBetweenEmptyBrackets">false</PropertyValue>
         <PropertyValue name="SpaceWithinControlBlockParentheses">false</PropertyValue>
         <PropertyValue name="NewlineTypeBrace">1</PropertyValue>
+        <PropertyValue name="AssingInsteadOfEqualityErrorTagType">2</PropertyValue>
         <PropertyValue name="SkippedRegionErrorTagType">1</PropertyValue>
         <PropertyValue name="RenameSkipPreviewIfConfirmed">false</PropertyValue>
         <PropertyValue name="AlwaysUseFallbackLocation">true</PropertyValue>
@@ -226,6 +232,7 @@
         <PropertyValue name="DisableSquiggles">false</PropertyValue>
         <PropertyValue name="EnableQuickInfoToolTips">true</PropertyValue>
         <PropertyValue name="SpaceAfterCastParenthesis">false</PropertyValue>
+        <PropertyValue name="TaskScopeHideUnknownFile">false</PropertyValue>
         <PropertyValue name="DisableCodeAnalysisSquiggles">false</PropertyValue>
         <PropertyValue name="IncludeHintsSuppress">false</PropertyValue>
         <PropertyValue name="DisableConvertToWhileLoop">false</PropertyValue>
@@ -235,6 +242,7 @@
         <PropertyValue name="CompleteParensInRawString">true</PropertyValue>
         <PropertyValue name="InactiveCodeOpacityPercent">55</PropertyValue>
         <PropertyValue name="InactivePlatformIntelliSenseLimit">1</PropertyValue>
+        <PropertyValue name="DisableModules">false</PropertyValue>
         <PropertyValue name="DisableSemanticColoring">false</PropertyValue>
         <PropertyValue name="IndentBraces">false</PropertyValue>
         <PropertyValue name="PreserveCommentIndentation">false</PropertyValue>
@@ -243,6 +251,7 @@
         <PropertyValue name="AlignParameters">false</PropertyValue>
         <PropertyValue name="AutoFormatOnBraceCompletion">true</PropertyValue>
         <PropertyValue name="AutoFormatOnClosingBrace">true</PropertyValue>
+        <PropertyValue name="GeneratedDocumentationType">1</PropertyValue>
         <PropertyValue name="ReferencesHideInStringResults">true</PropertyValue>
         <PropertyValue name="ReferencesHidePPIf0Results">true</PropertyValue>
         <PropertyValue name="DisableCodeAnalysisInBackground_1">false</PropertyValue>
@@ -252,6 +261,8 @@
         <PropertyValue name="AutoIndentOnTab">false</PropertyValue>
         <PropertyValue name="IndentCaseLabels">true</PropertyValue>
         <PropertyValue name="ClangFormatExecution">1</PropertyValue>
+        <PropertyValue name="ComparisonBitwiseMismatchErrorTagType">2</PropertyValue>
+        <PropertyValue name="LogicalBitwiseMismatchErrorTagType">2</PropertyValue>
         <PropertyValue name="ReferencesHideDisconfirmedResults">true</PropertyValue>
         <PropertyValue name="IncludeHintsSuppressBoostTest">false</PropertyValue>
         <PropertyValue name="RenameSearchComments">false</PropertyValue>
@@ -263,6 +274,8 @@
         <PropertyValue name="EnumerateCommentTasks">true</PropertyValue>
         <PropertyValue name="SpaceWithinLambdaBrackets">false</PropertyValue>
         <PropertyValue name="SpaceWithinBrackets">false</PropertyValue>
+        <PropertyValue name="AccidentalCopyErrorTagType">1</PropertyValue>
+        <PropertyValue name="ArithmeticOverflowErrorTagType">1</PropertyValue>
         <PropertyValue name="RenameSearchStrings">false</PropertyValue>
         <PropertyValue name="RenameShowPreview">false</PropertyValue>
         <PropertyValue name="DisableDatabase">false</PropertyValue>
@@ -274,6 +287,8 @@
         <PropertyValue name="SpaceAfterComma">true</PropertyValue>
         <PropertyValue name="SpaceBetweenEmptyBraces">false</PropertyValue>
         <PropertyValue name="IndentGotoLabels">1</PropertyValue>
+        <PropertyValue name="TaskScopeHideExternalFile">true</PropertyValue>
+        <PropertyValue name="FloatTruncatedErrorTagType">1</PropertyValue>
         <PropertyValue name="OnlineHelpSearchProvider_1">https://www.bing.com/search?q={0}</PropertyValue>
         <PropertyValue name="DisableConvertToForLoop">false</PropertyValue>
         <PropertyValue name="DisableIncludeAutoComplete">false</PropertyValue>
