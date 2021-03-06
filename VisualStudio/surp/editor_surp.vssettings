@@ -187,7 +187,7 @@
         <PropertyValue name="SmartMemberListCommitOnEnter">false</PropertyValue>
         <PropertyValue name="DisableIntelliSense">false</PropertyValue>
         <PropertyValue name="SpaceAroundAssignmentOperator">2</PropertyValue>
-        <PropertyValue name="ClangFormatExePath">C:\Programs\clformat\clang-format.exe</PropertyValue>
+        <PropertyValue name="ClangFormatExePath">C:\Programs\clangformat\clang-format.exe</PropertyValue>
         <PropertyValue name="DontShowClangFormatFileFound">false</PropertyValue>
         <PropertyValue name="UninitializedLocalVariableErrorTagType">1</PropertyValue>
         <PropertyValue name="DisableVCCodeAnalysisUX">false</PropertyValue>
