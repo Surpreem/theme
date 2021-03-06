@@ -86,6 +86,7 @@
     <option name="ALIGN_COLLECTIONS_AND_COMPREHENSIONS" value="false" />
     <option name="ALIGN_MULTILINE_IMPORTS" value="false" />
     <option name="NEW_LINE_AFTER_COLON" value="true" />
+    <option name="BLANK_LINES_AFTER_LOCAL_IMPORTS" value="1" />
     <option name="FROM_IMPORT_WRAPPING" value="5" />
   </Python>
   <codeStyleSettings language="CMake">
@@ -180,6 +181,7 @@
   </codeStyleSettings>
   <codeStyleSettings language="Python">
     <option name="RIGHT_MARGIN" value="79" />
+    <option name="BLANK_LINES_AFTER_IMPORTS" value="2" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="false" />
     <indentOptions>
