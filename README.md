@@ -20,9 +20,13 @@ The introduction of Son of Obsidian color theme is [here](https://surpreem.com/v
 * Son of Obsidian color theme
 * my formatting style (C++ only)
 
-### Clangformat
+### ClangFormat
 
 * my formatting style (C++ only, for v11.0.0)
+
+### EditorConfig
+
+* my formatting style (.NET and global, from roslyn project)
 
 ### git
 
