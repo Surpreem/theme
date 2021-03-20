@@ -1,0 +1,11 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+###############################
+# Core EditorConfig Options   #
+###############################
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8-bom
