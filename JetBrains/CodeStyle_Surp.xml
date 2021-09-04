@@ -89,6 +89,9 @@
     <option name="BLANK_LINES_AFTER_LOCAL_IMPORTS" value="1" />
     <option name="FROM_IMPORT_WRAPPING" value="5" />
   </Python>
+  <clangFormatSettings>
+    <option name="ENABLED" value="true" />
+  </clangFormatSettings>
   <codeStyleSettings language="CMake">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
