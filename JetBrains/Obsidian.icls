@@ -2,7 +2,8 @@
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+  <option name="EDITOR_FONT_NAME" value="Cascadia Code PL" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <colors>
@@ -15,6 +16,7 @@
     <option name="INDENT_GUIDE" value="343f41" />
     <option name="LEFT_GUTTER_BACKGROUND" value="3f4b4e" />
     <option name="LINE_NUMBERS_COLOR" value="66747a" />
+    <option name="LOOKUP_COLOR" value="4b4d4d" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="333333" />
     <option name="RECENT_LOCATIONS_SELECTION" value="484d4d" />
     <option name="RIGHT_MARGIN_COLOR" value="666666" />
