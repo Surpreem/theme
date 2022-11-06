@@ -424,6 +424,11 @@
         <option name="FOREGROUND" value="ffcd22" />
       </value>
     </option>
+    <option name="DEFAULT_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="f1f2f3" />
+      </value>
+    </option>
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="7f7f7f" />
