@@ -243,7 +243,7 @@
               <Item Name="ReSharper Warning" Foreground="0x00DD6F00" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="ReSharper LiveTemplates Current HotSpot mirror" Foreground="0x00808080" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="ReSharper Completion Replacement Range" Foreground="0x002238FF" Background="0x001E1E1E" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="brace matching" Foreground="0x02000000" Background="0x00000000" BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="brace matching" Foreground="0x02000000" Background="0x00D87505" BoldFont="Yes" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="xml doc comment - text" Foreground="0x007A7466" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="xml doc comment - processing instruction" Foreground="0x007A7466" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="xml doc comment - name" Foreground="0x007A7466" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
@@ -267,15 +267,15 @@
               <Item Name="HtmlClientTemplateSeparatorFormatDefinition" Foreground="0x00F3F2F1" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Breakpoint Group - Dependent (Disabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Breakpoint Group - Dependent (Enabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint Group (Disabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint Group (Enabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Breakpoint - Mapped (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint - Mapped (Disabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint - Mapped (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint - Advanced (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint - Advanced (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
-              <Item Name="Breakpoint (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Breakpoint (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint Group (Enabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint - Advanced (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint - Mapped (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint Group (Disabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint - Mapped (Disabled)" Foreground="0x00F3F2F1" Background="0x01000001" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint (Warning)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="Breakpoint - Advanced (Enabled)" Foreground="0x00F3F2F1" Background="0x002F2F8C" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Selected Text" Foreground="0x00FFFFFF" Background="0x00808080" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="urlformat" Foreground="0x00F9DA99" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
@@ -284,6 +284,9 @@
               <Item Name="Line Number" Foreground="0x007A7466" Background="0x00343129" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="compiler error" Foreground="0x000000FF" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="syntax error" Foreground="0x000076EC" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="brace pair level three" Foreground="0x00E5AD65" Background="0x00D87505" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="brace pair level two" Foreground="0x00BA66EA" Background="0x00D87505" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
+              <Item Name="brace pair level one" Foreground="0x0039B8EF" Background="0x00D87505" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Number" Foreground="0x0022CDFF" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="String" Foreground="0x000076EC" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
               <Item Name="Markup Attribute Value" Foreground="0x000076EC" Background="0x02000000" BoldFont="No" StrikethroughFont="No" ItalicFont="No" UnderlineFont="No"/>
